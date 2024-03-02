@@ -1,0 +1,845 @@
+.customOverlay{
+    display: none;
+}
+.customOverlay.show{
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.dashboardMain{
+    display: flex;
+}
+.dashboardMain .sideNav{
+    width: 280px;
+    padding: 63px 0px 54px 40px;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid rgba(63, 63, 68, 0.10);
+}
+.dashboardMain .sideNav .logoBlock a {
+    display: flex;
+    align-items: center;
+    font-size: 18.404px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--neutral-800);
+}
+.dashboardMain .sideNav .logoBlock a img {
+    margin-right: 4px;
+}
+.dashboardMain .sideNav .navBar{
+    margin: 47px 0 0;
+    max-height: calc(100vh - 300px);
+    overflow-y: auto;
+    padding-right: 32px;
+}
+.dashboardMain .sideNav .navBar ul{
+    list-style: none;
+}
+.dashboardMain .sideNav .navBar ul li{
+    margin-bottom: 16px;
+}
+.dashboardMain .sideNav .navBar ul li:last-child{
+    margin-bottom: 0px;
+}
+.dashboardMain .sideNav .navBar ul li a{
+    background-color: var(--white);
+    color: var(--secondary-Main);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 16px;
+    border-radius: 8px;
+    column-gap: 16px;
+    transition: all 0.5s;
+}
+.dashboardMain .sideNav .navBar ul li:hover a,
+.dashboardMain .sideNav .navBar ul li.active a{
+    background-color: var(--primary-Main);
+    color: var(--white);
+}
+.dashboardMain .sideNav .navBar ul li:hover a img,
+.dashboardMain .sideNav .navBar ul li.active a img{
+    filter: brightness(0) invert(1);
+}
+.dashboardMain .sideNav .navBar ul.bottomUl{
+    position: absolute;
+    left: 42px;
+    bottom: 54px;
+    right: 40px;
+}
+.dashboardMain .sideNav .navBar ul.bottomUl li button{
+    color: var(--red-500);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 16px;
+    border-radius: 8px;
+    column-gap: 16px;
+    transition: all 0.5s;
+    border: none;
+    width: 100%;
+}
+.dashboardMain .sideNav .navBar ul.bottomUl li button:hover{
+    background-color: var(--red-500);
+    color: var(--white);
+}
+.dashboardMain .sideNav .navBar ul.bottomUl li button:hover img{
+    filter: brightness(0) invert(1);
+}
+.dashboardMain .dashboardArea{
+    width: calc(100% - 280px);
+    margin-left: auto;
+}
+.dashboardHead{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 280px);
+    padding: 30px 40px 15px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    z-index: 9;
+}
+.dashboardHead .leftBlock {
+    flex: 1;
+}
+.subPageTitleWithShort{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboardHead .leftBlock h4{
+    font-weight: 300;
+}
+.dashboardHead .rightBlock{
+    display: flex;
+    align-items: center;
+    width: 360px;
+}
+.dashboardHead .rightBlock ul{
+    width: 280px;
+    max-width: 100%;
+}
+.dashboardHead .rightBlock li .MuiAvatar-root{
+   background-color: var(--Gray-200);
+   width: 66px;
+   height: 66px;
+   margin-right: 16px;
+   color: var(--secondary-Main);
+}
+.dashboardHead .rightBlock li .MuiTypography-body1{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--secondary-Main);
+}
+.dashboardHead .rightBlock li .MuiTypography-body2{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--secondary-Main);
+}
+.mainDashboardArea{
+    padding: 143px 40px 0 30px;
+}
+.pageFilter{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.filterSearch{
+    position: relative;
+    width: 298px;
+    max-width: 100%;
+}
+.filterSearch .form-control{
+    padding: 9px 12px 9px 40px;
+    height: 40px;
+    border-radius: 24px;
+}
+.filterSearch img{
+    position: absolute;
+    left: 12px;
+    top: 11px;
+}
+.pageFilterRight{
+    display: flex;
+    column-gap: 8px;
+}
+.pageFilterRightInner{
+    display: flex;
+    column-gap: 8px;
+}
+.pageFilterRight>button{
+    display: none;
+}
+.pageFilterRight .MuiButtonGroup-root button{
+    border-color: var(--Neutral-Light-100);
+    min-height: 41px;
+}
+.pageFilterRight .MuiButtonGroup-root button.active{
+    background-color: var(--Neutral-Light-100);
+}
+.tableContainer .lightforthCheckbox .mainCheck span{
+    top: 0;
+}
+.tableContainer table{
+    border-collapse:separate;
+    border-spacing:0 4px;
+    white-space: nowrap;
+}
+.tableContainer .MuiTableHead-root{
+    background-color: transparent;
+}
+.tableContainer .MuiTableHead-root th{
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    color: var(--Neutral-Light-200);
+}
+.tableContainer tbody td{
+    color: var(--Neutral-Light-500);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 8px;
+    border-top: 1px solid var(--Neutral-Light-100);
+    border-bottom: 1px solid var(--Neutral-Light-100);
+}
+.tableContainer tbody td:first-child{
+    border-radius: 12px 0px 0px 12px;
+    border-left: 1px solid var(--Neutral-Light-100);
+}
+.tableContainer tbody td:last-child{
+    border-radius: 0px 12px 12px 0px;
+    border-right: 1px solid var(--Neutral-Light-100);
+}
+.tableContainer tbody td .MuiChip-root.active{
+    background-color: var(--Green-100);
+}
+.tableContainer tbody td .MuiChip-root.active .MuiChip-label{
+    color: var(--Green-500);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.tableContainer tbody td .MuiChip-root.blocked{
+    background-color: var(--red-100);
+}
+.tableContainer tbody td .MuiChip-root.blocked .MuiChip-label{
+    color: var(--red-500);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.tableContainer tbody td .MuiChip-root.inactive{
+    background-color: var(--Neutral-Light-100);
+}
+.tableContainer tbody td .MuiChip-root.inactive .MuiChip-label{
+    color: var(--Neutral-Light-300);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.customPagination .MuiTablePagination-actions{
+    display: none;
+}
+.customPagination p{
+    margin: 0;
+}
+.customPagination .MuiToolbar-root{
+    min-height: initial;
+    padding-left: 0px;
+}
+.customPagination .firstlastButton button{
+    border-radius: 20px;
+    background: var(--Neutral-Light-50);
+    color: var(--neutral-light-400);
+    padding: 10px 16px;
+}
+.customPagination .mainPagination .MuiPagination-root ul li button{
+    width: 40px;
+    height: 40px;
+    background-color: var(--Neutral-Light-50);
+    color: var(--neutral-light-400);
+    border-radius: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.customPagination .mainPagination .MuiPagination-root ul li button.Mui-selected{
+    background-color: var(--Neutral-Light-500);
+    color: var(--white);
+}
+.instructorsTable .customerName .MuiTypography-root{
+    color: var(--Neutral-Light-500);
+    font-weight: 500;
+}
+.customMenuFilter .MuiList-root{
+    min-width: 223px;
+}
+.customMenuFilter .MuiList-root li{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #1C2A53;
+}
+
+/* Start Profile Page */
+
+.subPageTitleWithShort button {
+    font-size: 14px;
+    padding: 4px 8px;
+}
+.profilePage{
+    padding: 24px 0 0;
+}
+.profileRow{
+    display: flex;
+}
+.profileRow .profileLeft{
+    width: calc(100% - 346px);
+    padding-right: 80px;
+}
+.profileRow .profileRight{
+    width: 346px;
+    max-width: 100%;
+}
+.profileNameWithPic{
+    margin-bottom: 40px;
+}
+.profileNameWithPic p{
+    color: var(--neutral-light-400);
+}
+.profileInfo{
+    margin-bottom: 40px;
+    max-width: 780px;
+}
+.profileInfo ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profileInfo ul li{
+    min-width: 248px;
+    max-width: 50%;
+}
+.profileInfo ul li .MuiListItemIcon-root img{
+    width: 16px;
+}
+.profileNameWithPic .MuiAvatar-root{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 14px;
+}
+.profileSummaryBlock p{
+    margin: 0 0 6px;
+    /* max-width: 650px; */
+}
+.profileAction{
+    margin-bottom: 29px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.profileAction .outlineBtn{
+    background-color: var(--white);
+    font-weight: 700;
+    color: var(--neutral-light-400);
+}
+.profileDetailsView{
+    border-radius: 8px;
+    background: var(--Neutral-Light-50);
+    padding: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.profileDetailsView .detailsView{
+    padding: 0 30px;
+}
+.profileDetailsView .detailsView .CertificatesInfo p{
+    color: var(--neutral-light-400);
+}
+.profileDetailsViewScroll{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+.detailsView>p{
+    margin: 0 0 10px;
+}
+.detailsViewBlock{
+    background-color: var(--white);
+    border-radius: 12px;
+    border: 1px dashed var(--Neutral-Light-100);
+    padding: 12px 12px;
+    margin-bottom: 12px;
+}
+.detailsViewBlock:last-child{
+    margin-bottom: 0px;
+}
+.detailsViewBlock ul li .MuiAvatar-root{
+    margin-right: 12px;
+}
+.detailsViewBlock .MuiIconButton-root{
+    width: 24px;
+    height: 24px;
+    background-color: var(--Neutral-200);
+    border-radius: 100%;
+    padding: 4px;
+}
+.detailsViewBlock ul li .MuiTypography-root{
+    word-break: break-word;
+}
+.profileAccountInfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.profileAccountInfoBlock{
+    border-radius: 12px;
+    border: 1px dashed var(--Neutral-Light-100);
+    background: #EDEDED;
+    padding: 12px 12px;
+}
+.profileAccountInfoBlock p.subTextTwo{
+    color: var(--Neutral-Light-500);
+    margin: 0 0 2px;
+}
+.profileAccountInfoBlock p.smallText{
+    color: var(--neutral-light-400);
+    font-size: 10px;
+}
+
+/* End Profile Page */
+
+/* Start dashborad */
+
+.dashWeeklySales .topBlock{
+    background-color: var(--Gray-200);
+    border-radius: 8px;
+    padding: 1px 16px 10px;
+}
+.dashWeeklySales .bodyBlock{
+    padding: 1px 16px 10px;
+}
+.dashWeeklySales .bodyBlock .MuiAvatar-root{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: var(--secondary-Main);
+}
+.dashWeeklySales .bodyBlock .MuiListItemText-root .MuiTypography-root{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--secondary-Main);
+}
+.dashWeeklySales .bodyBlock .MuiChip-root{
+    border-radius: 8px;
+    background: rgba(23, 207, 129, 0.25);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--primary-Main);
+}
+.dashRightList .MuiAvatar-root{
+    width: 48px;
+    height: 48px;
+    background-color: var(--secondary-Main);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+}
+.dashRightList .MuiListItemText-root .MuiTypography-body1{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--secondary-Main);
+}
+.dashRightList .MuiListItemText-root .MuiTypography-body2{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    color: var(--secondary-Main);
+}
+.dashRightList .MuiListItemSecondaryAction-root p.subTextTwo{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: rgba(63, 63, 68, 0.30);
+}
+.customStudentProgress .progressBlock{
+    border-radius: 8px;
+    background: linear-gradient(270deg, #B0F5D8 0%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 8px 16px;
+    min-width: 195px;
+}
+.customStudentProgress .progressBlock p.subTextTwo{
+    color: var(--secondary-Main);
+    font-weight: 400;
+}
+.customStudentProgress .progressValue p.subTextTwo{
+    color: rgba(63, 63, 68, 0.40);
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* End dashborad */
+
+/* Start logout Modal */
+
+.logoutModal .MuiDialog-paper{
+    width: 362px;
+    max-width: 100%;
+}
+.logoutModal .imgBlock{
+    background-color: var(--Neutral-900);
+    width: 54px;
+    height: 54px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.logoutModal .contentBlock p{
+    text-align: center;
+    font-weight: 500;
+}
+.logoutModal .MuiDialogActions-root{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    padding: 20px 27px 27px;
+}
+.logoutModal .MuiDialogTitle-root{
+    padding: 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.logoutModal .MuiDialogTitle-root button{
+    color: rgba(63, 63, 68, 0.3);
+}
+.logoutModal .MuiDialogTitle-root button:hover{
+    color: rgba(63, 63, 68, 1);
+}
+
+/* End logout Modal */
+/* css added rakesh */
+.pageFilterRight {
+    align-items: center;
+}
+.filterSearch_sm {
+    width: 200px;
+}
+.courseTbl_chipBox {
+    column-gap: 2px;
+    display: flex;
+}
+.pageFilterRightLeftBox {
+    display: flex;
+}
+.pageFilterRightLeftBox>button{
+    display: none;
+}
+.pageFilterRightBox>button{
+    display: none;
+}
+.pageFilterRightBox{
+    display: flex;
+    column-gap: 8px;
+}
+.courseTglBtn_group {
+    border-radius: 12px !important;
+}
+.courseTglBtn_group .MuiButton-outlined {    
+    border: 1px solid #EEEEEE !important;
+}
+.courseTglBtn_group .MuiToggleButtonGroup-grouped {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.courseTglBtn_group .MuiChip-filledDefault{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    background: var(--Neutral-Light-200) !important;
+    color: var(--white);
+    height: auto !important;
+}
+.courseTglBtn_group .MuiChip-filledDefault .css-1dybbl5-MuiChip-label {    
+    padding: 1px 4px;
+}
+.courseTglBtn_group .Mui-selected {
+    color: var(--Neutral-Light-500) !important;
+    background-color: #EEEEEE !important
+}
+.courseTglBtn_group .Mui-selected .MuiChip-filledDefault {
+    background: var(--white) !important;
+    color: var(--Neutral-Light-300) !important;
+}
+
+.courseBackDlt_area  {
+    column-gap: 15px;
+    display: none;
+}
+.courseBackDlt_area > button {
+    min-width: 24px;
+    color: var(--neutral-light-400);
+}
+.searchArea {
+    display: flex;
+    column-gap: 8px;
+    width: 100%;
+}
+.searchArea>button {
+    display: none;
+}
+.saveArea {
+    display: none;
+}
+.courseSelect {
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 0;
+    margin-bottom: 24px;
+}
+.courseSelect .courseBackDlt_area {
+    display: block;
+}
+.courseSelect .courseTglBtn_group,
+.courseSelect .searchArea {
+    display: none;
+}
+.courseSelect .saveArea {
+    display: flex;
+}
+.courseSelect .saveArea .primaryBtnSmall {
+    column-gap: 8px;
+}
+.chngStatLbl {
+    display: inline-flex;
+    align-items: center;
+    color: var(--Neutral-Light-300);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    margin-bottom: 0;
+}
+.chngStatLbl>button {
+    font-weight: 700;
+}
+.mediaImage {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.mediaImage img {
+    width: 100%;
+    height: auto;
+}
+.cardBox .mainText {
+    color: var(--Neutral-Light-500);
+}
+.couseOutline_list > .subTextOne {
+    color: var(--Neutral-Light-500);
+}
+.courseOut_listItm span + span {
+    margin-top: 4px;
+}
+.courseOut_listItm .subTextOne {
+    color: var(--Neutral-Light-500);
+}
+.courseOut_listItm .subTextTwo {
+    color: var(--neutral-light-400);
+}
+.courseOut_listItm {
+    padding: 12px 0px !important;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.courseDtl_profile {
+    border-radius: 12px;
+    box-shadow: 0px 2px 0px 0px #C4D2DF;
+    background-color: var(--neutral-100);
+}
+.courseDtl_profile  .primaryOutlineBtn img {
+    margin-left: 0;
+}
+.courseProfName {
+    align-items: center;
+}
+.courseProfName > h4 {
+    color: var(--Neutral-Light-500);
+}
+.courseProfName > span {
+    color: var(--Neutral-Light-400);
+}
+.coursePrfoInfo strong {
+    color: var(--Neutral-Light-300);
+}
+.coursePrfoInfo p {
+    color: var(---Neutral-Light-500);
+}
+.courseProfAction_area .grayOutlineBtn {
+    width: calc(50% - 6px);
+}
+
+.coursePriceDtlBox > h3 {
+    color: var(--neutral-800);
+}
+.coursePriceDtlBox > span {
+    color: var(--neutral-light-400);
+}
+
+.courDtl_listItm {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.courDtl_listItm .courseDtlLbl {
+    color: var(--Neutral-Light-300);
+}
+.courDtl_listItm .courseDtlTxt {
+    color: var(--Neutral-Light-500);
+    text-align: right;
+}
+.courDtl_listItm a.courseDtlTxt {
+    color: #595FE5;
+    text-decoration: underline;
+    float: right;
+}
+/* .courseDtl_right_actionBox button {
+    color: var(--Neutral-600);
+} */
+.grayOutlineBtn {
+    background-color: transparent;
+    border: 1px solid var(--neutral-400) !important;
+    color: var(--Neutral-600) !important;
+    column-gap: 8px;
+}
+.courseDtl_right_actionBox button img {
+    width: 24px;
+    height: 18px;
+}
+
+.attachBox > h3 {
+    color: var(--Neutral-Light-500);
+}
+.attach_listItm {
+    border: 1px dashed #EEEEEE;
+    border-radius: 12px;
+    padding: 12px !important;
+}
+.courseDocName {
+    color: var(--Neutral-Light-500);
+}
+
+.attachBox > .attachList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.attach_listItm .docSize {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #727880;
+}
+.attach_listItm .viewIcon {
+    font-size: 12px;
+    min-width: auto;
+    padding: 0;
+    color: var(--Neutral-500) !important;
+}
+.attach_listItm .viewIcon > svg {
+    width: 18px;
+    height: 18px;
+}
+
+.rejectDialog h5 {
+    color: var(--Neutral-Light-500);
+}
+.rejectDialog .rejectModal_lbl {
+    color: var(--Neutral-Light-300);
+}
+.rejectDialog p {
+    color: #1F1F1F;
+}
+.rejectModaltxtarea span {
+    color: var(--neutral-light-400);
+}
+.rejectBtn {
+    padding: 10px 16px 9px 16px !important;
+    border-radius: 12px !important;
+    background: #EA4335 !important;
+    color: var(--white) !important;
+}
+.rejectDialog .MuiDialogActions-root {
+    padding: 20px 27px 27px;
+}
+.rejectDialog button {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 21px !important;
+    padding: 10px 16px 9px;
+    border-radius: 12px !important;
+    color: var(--neutral-light-400);
+    border: 1px solid #EEEEEE;
+}
+
+.primaryOutlineBtn:hover {
+    color: #fff !important;
+    background-color: var(--primary-Main) !important;
+    transition: all .3s;
+}
+.courseDtl_right_actionBox .grayOutlineBtn img {
+    margin-left: 0;
+}
+.mobPage_title_block {
+    display: none;
+}
+.cstmBreadCrumb a {
+    color: var(--Neutral-Light-500);
+}
+.cstmBreadCrumb p {
+    color: var(--Neutral-Light-300);    
+}
+.cstmBreadCrumb a:hover {
+    color: var(--primary-Main);
+}
+/* css added rakesh */

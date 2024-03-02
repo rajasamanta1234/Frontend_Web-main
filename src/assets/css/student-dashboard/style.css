@@ -1,0 +1,1076 @@
+.customOverlay{
+    display: none;
+}
+.customOverlay.show{
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.profileimageset{
+    width: 150px;
+    height: 150px;
+}
+.dashboardMain{
+    display: flex;
+}
+.dashboardMain .sideNav{
+    width: 256px;
+    padding: 30px 0px 54px 20px;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid rgba(63, 63, 68, 0.10);
+}
+.dashboardMain .sideNav>button{
+    display: none;
+}
+.dashboardMain .sideNav .logoBlock a {
+    display: flex;
+    align-items: center;
+    font-size: 18.404px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--neutral-800);
+}
+.dashboardMain .sideNav .logoBlock a img {
+    margin-right: 4px;
+}
+.dashboardMain .sideNav .navBar{
+    padding: 47px 20px 0 0;
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
+}
+.dashboardMain .sideNav .navBar ul{
+    list-style: none;
+}
+.dashboardMain .sideNav .navBar ul li{
+    margin-bottom: 16px;
+}
+.dashboardMain .sideNav .navBar ul li:last-child{
+    margin-bottom: 0px;
+}
+.dashboardMain .sideNav .navBar ul li a{
+    background-color: var(--white);
+    color: var(--secondary-Main);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 16px;
+    border-radius: 8px;
+    column-gap: 16px;
+    transition: all 0.5s;
+    position: relative;
+}
+.dashboardMain .sideNav .navBar ul li:hover>a,
+.dashboardMain .sideNav .navBar ul li.active a{
+    background-color: var(--primary-Main);
+    color: var(--white);
+}
+.dashboardMain .sideNav .navBar ul li:hover a img,
+.dashboardMain .sideNav .navBar ul li.active a img{
+    filter: brightness(0) invert(1);
+}
+.dashboardMain .sideNav .navBar ul li .MuiAccordionSummary-root{
+    background-color: var(--white);
+    color: var(--secondary-Main);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 16px;
+    border-radius: 8px;
+    column-gap: 16px;
+    transition: all 0.5s;
+    position: relative;
+    min-height: 48px;
+}
+.dashboardMain .sideNav .navBar ul li .MuiAccordionSummary-root:hover{
+    background-color: var(--primary-Main);
+    color: var(--white);
+}
+.dashboardMain .sideNav .navBar ul li .MuiAccordionSummary-root:hover img{
+    filter: brightness(0) invert(1);
+}
+.dashboardMain .sideNav .navBar ul li .MuiAccordionSummary-root:hover .MuiAccordionSummary-expandIconWrapper svg{
+    filter: brightness(0) invert(1);
+}
+.dashboardMain .sideNav .navBar ul li .MuiAccordionSummary-root .MuiAccordionSummary-content{
+    margin: 0;
+}
+.dashboardMain .sideNav .navBar ul li .MuiAccordionSummary-root .MuiAccordionSummary-content img{
+    margin-right: 16px;
+}
+.dashboardMain .sideNav .navBar ul li a span{
+    position: absolute;
+    right: 0;
+    border-radius: 8px;
+    background: var(--primary-Main);
+    color: var(--white);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 2px 8px;
+}
+.dashboardMain .sideNav .navBar ul.bottomUl{
+    position: absolute;
+    left: 42px;
+    bottom: 54px;
+    right: 40px;
+}
+.dashboardMain .sideNav .navBar ul.bottomUl li button{
+    color: var(--error);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 16px;
+    border-radius: 8px;
+    column-gap: 16px;
+    transition: all 0.5s;
+    border: none;
+    width: 100%;
+}
+.dashboardMain .sideNav .navBar ul.bottomUl li button:hover{
+    background-color: var(--error);
+    color: var(--white);
+}
+.dashboardMain .sideNav .navBar ul.bottomUl li button:hover img{
+    filter: brightness(0) invert(1);
+}
+.upgradePro{
+    background-color: var(--Neutral-Black);
+    padding: 25px 20px;
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+    right: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 16.581px 24.814px 0px rgba(20, 21, 34, 0.2);
+}
+.upgradePro h4{
+    color: var(--white);
+}
+.upgradePro p{
+    color: var(--Neutral-Dark-Grey);
+}
+.dashboardMain .dashboardArea{
+    width: calc(100% - 256px);
+    margin-left: auto;
+}
+.dashboardHead{
+    position: fixed;
+    top: 0;
+    left: 256px;
+    width: calc(100% - 674px);
+    padding: 24px 32px 15px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    z-index: 99;
+}
+.dashboardHead.fullWidth{
+    width: calc(100% - 256px) !important;
+    border-bottom: 1px solid rgba(63, 63, 68, 0.10);
+}
+.navMobileBar{
+    display: none;
+}
+.dashboardHead .leftBlock {
+    flex: 1;
+}
+.subPageTitleWithShort{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboardHead .leftBlock h4{
+    font-weight: 500;
+}
+.dashboardHead .leftBlock p{
+    color: var(--Neutral-Dark-Grey);
+    margin: 0;
+}
+.dashboardHead .rightBlock{
+    display: flex;
+    align-items: center;
+    width: 205px;
+    max-width: 100%;
+    column-gap: 20px;
+}
+.dashboardHead .rightBlock .forMobile{
+    display: none;
+}
+.menuProfile .MuiList-root{
+    padding: 30px;
+}
+.menuProfile .MuiList-root li{
+    min-width: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menuProfile .MuiList-root li img{
+    margin-right: 20px;
+}
+.menuProfile .MuiList-root li:last-child{
+    color: var(--red-500);
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.menuProfile .MuiList-root li:last-child:hover{
+    color: var(--white);
+    background-color: var(--red-500);
+}
+.dashboardHead .rightBlock .newCoursebtndiv{
+    margin-right: 64px;
+}
+.dashboardHead .rightBlock ul{
+    width: 80px;
+    max-width: 100%;
+}
+.dashboardHead .rightBlock li .MuiAvatar-root{
+   background-color: var(--Gray-200);
+   width: 50px;
+   height: 50px;
+   margin-right: 0px;
+   color: var(--secondary-Main);
+}
+.dashboardHead .rightBlock li .MuiTypography-body1{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--secondary-Main);
+}
+.dashboardHead .rightBlock li .MuiTypography-body2{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--secondary-Main);
+}
+.mainDashboardArea{
+    padding: 143px 30px 0 30px;
+    width: calc(100% - 418px);
+}
+.mainDashboardArea.fullWidth{
+    width: calc(100% - 0px);
+}
+.dashboardRightPanel{
+    background: var(--Neutral-Soft-Grey);
+    width: 418px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    min-height: 100vh;
+}
+.recommendationSlider{
+    margin-top: 20px !important;
+}
+.recommendationSliderBlock{
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.recommendationSliderBlock .ratingBtn{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: var(--red-400);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recommendationSliderBlock .ratingBtn .MuiRating-root{
+    font-size: 1rem;
+}
+.recommendationSlider .imgBlock{
+    max-height: 250px;
+    overflow: hidden;
+    border-radius: 8px 8px 0px 0px;
+}
+.recommendationSlider .imgBlock img{
+    /* height: 100%; */
+    object-fit: cover;
+    aspect-ratio: 2 / 1.3;
+}
+.recommendationSlider .contentBlock p.subTextOne{
+    color: var(--Neutral-900);
+}
+.recommendationSlider .contentBlock p.subTextTwo{
+    color: var(--Neutral-600);
+}
+.recommendationSlider .contentBlock .MuiSvgIcon-root{
+    font-size: 0.8rem;
+}
+.courseCompleteStatus{
+    padding: 0 0 56px;
+}
+.courseCompleteStatus .courseStatus{
+    border-radius: 10px;
+    background: var(--primary-Main);
+    padding: 20px 20px 0;
+    box-shadow: 0px 16.581px 28.814px 0px rgba(88, 25, 89, 0.2);
+}
+.courseCompleteStatus .courseStatus p.mainText{
+    margin: 0 0 5px;
+}
+.courseStatusContent {
+    padding: 14px;
+    border-radius: 9.163px;
+    background: var(--white);
+    box-shadow: 0px 4.581px 45.814px 0px rgba(0, 0, 0, 0.04);
+    min-height: 233px;
+}
+.courseStatusContent .MuiLinearProgress-root{
+    height: 7px;
+}
+.courseStatusContent .MuiAvatar-root{
+    width: 74px;
+    height: 74px;
+    border-radius: 13.744px;
+    margin-right: 14px;
+}
+.courseStatusContent .MuiListItemText-root .MuiTypography-body1{
+    color: var(--Neutral-900);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.courseStatusContent .MuiListItemText-root .MuiTypography-body2{
+    color: var(--Neutral-600);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.courseStatusContent p.subTextOne{
+    color: var(--Neutral-600);
+}
+.courseStatusContent .MuiSlider-root{
+    height: 7px;
+}
+.courseStatusContent .MuiSlider-root .MuiSlider-thumb::after{
+    width: 10px;
+    height: 10px;
+    background-color: var(--white);
+    border-radius: 100%;
+}
+.courseStatusContent .MuiSlider-rail{
+    background-color: var(--Neutral-200);
+    opacity: 1;
+}
+.tradingCourseSlider .info p{
+    color: var(--Neutral-Black);
+}
+.tradingCourseSlider .infoList .MuiListItemAvatar-root {
+    min-width: 36px;
+}
+.tradingCourseSlider .infoList .MuiAvatar-root{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 0px rgba(23, 23, 37, 0.04);
+    background: var(--Neutral-Soft-Grey);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--Neutral-Black);
+}
+.tradingCourseSlider .infoList .MuiListItemText-root .MuiTypography-body1{
+    color: var(--Neutral-Dark-Grey);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.tradingCourseSlider .btnInter_midiate{
+    font-size: 12px !important;
+    padding: 6px 10px !important;
+}
+.learningtag{
+    padding: 10px 14px;
+    border-radius: 32px;
+    border: 1px solid var(--Neutral-200);
+}
+
+/* Start Student Dashboard */
+
+.dashboardLeftPanel{
+    padding-bottom: 56px;
+}
+.aiBox{
+    background-color: var(--Primary-Surface);
+    padding: 18px 18px;
+    border-radius: 12px;
+    height: 100%;
+}
+.aiBox.active{
+    background: rgb(212,167,230);
+    background: linear-gradient(90deg, rgba(212,167,230,1) 0%, rgba(172,88,208,1) 100%);
+}
+.aiBox p.subTextOne{
+    margin: 0 0 6px;
+}
+.aiBox p.subTextTwo{
+    color: var(--Neutral-600);
+}
+.aiBox.active p{
+    color: var(--white);
+}
+.forMobileUsernameBlock  {
+    display: none !important;
+}
+.donthavesubscribedSec{
+    padding: 150px 0 0;
+}
+.donthavesubscribedSec img{
+    display: block;
+    margin: 0 auto 23px;
+}
+.donthavesubscribedSec h4{
+    margin: 0 0 13px;
+    text-align: center;
+}
+.donthavesubscribedSec p{
+    max-width: 319px;
+    margin: 0 auto 50px;
+    text-align: center;
+    font-weight: 400;
+    color: #464665;
+}
+.donthavesubscribedSec a{
+    width: 318px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.tradingCourse>h4{
+    margin: 0 0 18px;
+}
+.tradingCourseInner{
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.studentCalendar{
+    border-radius: 16px;
+    background-color: var(--white);
+    padding: 20px 20px;
+    margin-bottom: 30px !important;
+}
+.studentCalendar button{
+    min-width: initial;
+    padding: 0;
+}
+.studentCalendar .dateBlock p{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--Neutral-Dark-Grey);
+    width: 30px;
+    text-align: center;
+}
+.studentCalendar .dateBlock button{
+    border-radius: 100px;
+    background: var(--Neutral-Soft-Grey);
+    width: 30px;
+    height: 30px;
+    color: var(--Neutral-Black);
+}
+.studentCalendar .dateBlock .MuiGrid-container .MuiGrid-item{
+    padding: 4px;
+}
+.studentCalendar .dateBlock .activeDay{
+    background-color: var(--primary-Main);
+    border-radius: 22px 22px 0 0;
+    padding: 4px;
+}
+.studentCalendar .dateBlock .activeDay p{
+    color: var(--white);
+}
+.studentCalendar .dateBlock .activeDate{
+    background-color: var(--primary-Main);
+    border-radius: 0px 0px 22px 22px;
+    padding: 4px;
+}
+.studentCalendar .dateBlock .activeDate button{
+    background-color: var(--Neutral-Black);
+    color: var(--white);
+}
+.popularCocahSlider{
+    margin-top: 17px;
+}
+.popularCocahBlock{
+    border-radius: 16px;
+    background-color: var(--white);
+    padding: 24px;
+}
+.popularCocahBlockInner{
+    padding: 30px;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.popularCocahBlock .MuiAvatar-root{
+    width: 45px;
+    height: 45px;
+}
+.popularCocahBlock .MuiListItemText-root .MuiTypography-root{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--Neutral-Black);
+}
+.popularCocahBlock p.subTextOne{
+    color: var(--Neutral-Black);
+}
+
+/* End student Dashboard */
+
+
+/* Start logout Modal */
+
+.logoutModal .MuiDialog-paper{
+    width: 362px;
+    max-width: 100%;
+}
+.logoutModal .imgBlock{
+    background-color: #DB5962;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.logoutModal .contentBlock p{
+    text-align: center;
+    font-weight: 500;
+}
+.logoutModal .contentBlock p.subTextTwo{
+    color: var(--Neutral-Dark-Grey);
+}
+.logoutModal .MuiDialogActions-root{
+    display: flex;
+    column-gap: 20px;
+    padding: 20px 27px 27px;
+}
+.logoutModal .MuiDialogActions-root button{
+    flex: 1;
+}
+.logoutModal .MuiDialogActions-root button:first-child{
+    color: var(--Neutral-Black);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.logoutModal .MuiDialogTitle-root{
+    padding: 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.logoutModal .MuiDialogTitle-root button{
+    color: rgba(63, 63, 68, 0.3);
+}
+.logoutModal .MuiDialogTitle-root button:hover{
+    color: rgba(63, 63, 68, 1);
+}
+
+/* End logout Modal */
+
+
+/* Start Account Page */
+
+.studentProfileBox .MuiListItemAvatar-root{
+    min-width: 132px;
+}
+.studentProfileBox .MuiAvatar-root{
+    width: 100px;
+    height: 100px;
+}
+.studentProfileBox .MuiListItemText-root .MuiTypography-body1{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--Neutral-Light-500);
+}
+.studentProfileBox .MuiListItemText-root .MuiTypography-body2{
+    color: var(--neutral-light-400);
+    font-size: 14px;
+}
+.studentProfileStats{
+    padding-top: 10px;
+}
+.studentProfileStats .MuiBox-root{
+    border: 2px solid var(--Neutral-Soft-Grey);
+    padding: 16px;
+    border-radius: 8px;
+}
+.studentProfileStats .MuiBox-root p{
+    color: var(--Neutral-600);
+}
+.profileCertificatesInfo{
+    padding-top: 10px;
+}
+.profileCertificatesInfo li{
+    align-items: flex-start;
+}
+.profileCertificatesInfo .MuiAvatar-root{
+    background-color: transparent;
+    margin-right: 12px;
+}
+.profileCertificatesInfo .MuiListItemText-root{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.profileCertificatesInfo .MuiBox-root{
+    border: 1.5px dashed #EEEEEE;
+    padding: 20px 12px;
+    border-radius: 12px;
+}
+.badgeBox{
+    border: 1.5px solid var(--Neutral-Soft-Grey);
+    padding: 28px 32px;
+    border-radius: 8px;
+}
+.editProfileMenu ul{
+    margin-top: 30px;
+}
+.editProfileMenu ul li a{
+    padding: 13px 20px;
+    border-radius: 10px;
+    color: var(--Neutral-Black);
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+}
+.editProfileMenu ul li a.active{
+    background-color: var(--Neutral-Soft-Grey);
+}
+.editProfileMobileMenu{
+    display: none;
+}
+.studentProfileUpload{
+    position: relative;
+}
+.studentProfileUpload .MuiListItemAvatar-root{
+    min-width: 180px;
+}
+.studentProfileUpload .MuiAvatar-root{
+    width: 150px;
+    height: 150px;
+    overflow: initial;
+    position: relative;
+}
+.studentProfileUpload .MuiAvatar-root img{
+    border-radius: 100%;
+}
+.studentProfileUpload .MuiListItemText-root .MuiTypography-body1{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.studentProfileUpload .MuiListItemText-root .MuiTypography-body2{
+    font-size: 14px;
+}
+.studentProfileUpload .MuiButtonBase-root{
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--white) !important;
+    border-radius: 100%;
+    min-width: initial;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studentProfileUpload .MuiButtonBase-root .MuiButton-startIcon{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.acntStinglightforthCheckbox{
+    align-items: center;
+}
+.acntStinglightforthCheckbox .mainCheck span {
+    top: 0px;
+}
+.studentNotificationSetting .lightforthCheckbox{
+    align-items: center;
+}
+.studentNotificationSetting .lightforthCheckbox .mainCheck span{
+    top: 0px;
+}
+.studentNotificationSetting .MuiFormGroup-root .MuiTypography-root{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: var(--Neutral-Dark-Grey);
+    font-family: 'Gordita' !important;
+}
+.studentNotificationSetting .MuiFormGroup-root .MuiRadio-root{
+    padding: 5px 9px;
+}
+
+/* End Account Page */
+
+/* Start Student Paln Page */
+
+.studentPlanBox{
+    background-color: var(--Neutral-Soft-Grey);
+    padding: 30px;
+    border-radius: 10px;
+}
+.studentPlanBox .primaryBtn{
+    min-width: 170px;
+}
+.studentPlanBox .forMobile{
+    display: none;
+}
+.studentPlanBox.pro{
+    background-color: var(--Neutral-Black);
+    box-shadow: 0px 16.581px 24.814px 0px rgba(20, 21, 34, 0.2);
+}
+
+
+/* End Student Paln Page */
+
+/* Start account Link */
+
+.accountLinkBox{
+    border-radius: 12px;
+    padding: 16px 32px;
+}
+.accountLinkBlock p.small{
+    color: var(--neutral-700);
+    font-size: 10px;
+}
+.accountLinkBlock ul {
+    padding-left: 16px;
+}
+.accountLinkBlock ul li{
+    color: var(--neutral-700);
+    font-size: 10px;
+}
+
+/* End account Link */
+
+/* Start My Course page */
+
+.courseFilterCheckbox{
+    position: relative;
+}
+.courseFilterCheckbox input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.courseFilterCheckbox span{
+    border: 1px solid var(--Neutral-Soft-Grey);
+    padding: 9px 30px 9px 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: var(--Neutral-Black);
+    display: block;
+}
+.courseFilterCheckbox input:checked + span{
+    background-color: var(--Neutral-Black);
+    color: var(--white);
+}
+
+.courseFilterRadio{
+    position: relative;
+}
+.courseFilterRadio input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.courseFilterRadio span{
+    border: 1px solid var(--Neutral-Soft-Grey);
+    padding: 9px 30px 9px 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: var(--Neutral-Black);
+    display: block;
+    width: 100%;
+}
+.courseFilterRadio input:checked + span{
+    background-color: var(--Neutral-Black);
+    color: var(--white);
+}
+.searchAutocomplete.searchStudentCourse button{
+    background-color: #fff;
+}
+.searchAutocomplete.searchStudentCourse .MuiOutlinedInput-root{
+    padding: 12px 30px 12px 24px !important;
+    border-radius: 8px;
+    background-color: var(--white);
+    border: 1px solid var(--Neutral-Soft-Grey);
+    font-family: 'Gordita';
+}
+.searchAutocomplete.searchStudentCourse{
+    width: 100%;
+}
+.courseSortBtn button{
+    display: inline-flex;
+    column-gap: 14px;
+    color: var(--Neutral-Black);
+    font-family: 'Gordita';
+}
+.courseThumb{
+    background-color: var(--white);
+    border-radius: 16px;
+}
+.courseThumb:hover{
+    box-shadow: 0px 40px 100px 0px #0000000D;
+}
+.courseThumb .imgBlock{
+    aspect-ratio: 2 / 1.1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.courseThumb .imgBlock img{
+    height: 100%;
+    object-fit: cover;
+}
+.resuleTutorBox{
+    background-color: var(--white);
+    border-radius: 16px;
+}
+.resuleTutorBox:hover{
+    box-shadow: 0px 40px 100px 0px #0000000D;
+}
+
+/* End Active deActive modal css */
+
+
+/* Start Active deActive modal css */
+
+.deActiveModal .MuiDialog-paper,
+.reactiveModal .MuiDialog-paper{
+    width: 375px;
+    max-width: 100%;
+}
+.deActiveModal .contentBlock .subTextOne {
+    color: var(--neutral-800);
+}
+
+.deActiveModal .MuiDialogTitle-root,
+.reactiveModal .MuiDialogTitle-root {
+    padding: 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deActiveModal .MuiDialogTitle-root button,
+.reactiveModal .MuiDialogTitle-root button {
+    color: rgba(63, 63, 68, 0.3);
+}
+
+.deActiveModal .MuiDialogTitle-root button:hover,
+.reactiveModal .MuiDialogTitle-root button:hover {
+    color: rgba(63, 63, 68, 1);
+}
+.deActiveModal .MuiDialogActions-spacing {
+    padding: 20px 24px 27px;
+}
+.deActiveModal .MuiDialogActions-root button {
+    margin: 0;
+    color: var(--red-500);
+}
+.deActiveModal .MuiDialogActions-root button:hover {
+    background-color: var(--red-500);
+    color: var(--white);
+}
+.reactiveModal .imgBlock {
+    background-color: var(--red-600);
+    width: 54px;
+    height: 54px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.reactiveModal .contentBlock p {
+    text-align: center;
+}
+.reactiveModal .contentBlock .txtMsg {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.reactiveModal .contentBlock .txtCoution {
+    color: var(--Neutral-Black);
+}
+
+.reactiveModal .MuiDialogActions-root{
+    padding: 0px 30px 30px;
+    flex-direction: column;
+}
+
+.resendImgBlock {
+    width: auto;
+    text-align: center;
+    margin: 0 0 56px;
+}
+.reactiveModal .contentBlock h4 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.reactiveModal .contentBlock .resendtxtMsg {
+    color: var(--Neutral-600);
+    margin-bottom: 16px;
+}
+
+.successModal .imgBlock {
+    background-color: transparent;
+}
+.contentBlock .successtxtMsg {
+    color: var(--secondary-Main);
+}
+
+.reactiveModal .contentBlock .mailTxt {
+    color: var(--Neutral-600);
+}
+.reactiveModal .contentBlock .mailTxt span {
+    color: var(--Neutral-900);
+}
+.otpFildBox input {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: var(--Neutral-900);
+    padding: 12px;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-Main);
+}
+.otpFildBox input:focus {
+    border-color: var(--primary-Main);
+}
+.reactiveModal .MuiDialogActions-root p {
+    margin-top: 21px !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.reactiveModal .MuiDialogActions-root p button {
+    background: none;
+    border: none;
+    font-weight: 700;
+    color: var(--primary-Main);
+}
+
+
+/* End My Course page */
+
+.PhoneInput {
+    position: relative;
+}
+
+.PhoneInput input {
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-200);
+    box-sizing: border-box;
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--neutral-800);
+    transition: all .3s;
+    font-family: 'Gordita';
+}
+
+.PhoneInputCountrySelectArrow {
+    background-image: url(../../images/arrow-down.svg);
+    width: 20px !important;
+    height: 17px !important;
+    border: none !important;
+    background-repeat: no-repeat;
+    transform: none !important;
+    background-position: center;
+}
+
+.CustomPhoneInput {
+    position: relative;
+}
+
+.CustomPhoneInput .PhoneInput {
+    position: absolute;
+    left: 24px;
+    top: 12px;
+}
+.CustomPhoneInput .PhoneInput p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.PhoneInputSelect{
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 45px;
+    margin-right: 8px;
+}
+.PhoneInputSelect .MuiSelect-select{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    padding-right: 0px !important;
+}
+.CustomPhoneInput .PhoneInput .MuiSvgIcon-root{
+    right: 0 !important;
+}
+.CustomPhoneInput .PhoneInput input{
+    border: none;
+    background-color: transparent;
+}
+.CustomPhoneInput .PhoneInput .MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+
+.CustomPhoneInput input.form-control {
+    padding: 15px 24px 15px 105px;
+}

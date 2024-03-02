@@ -1,0 +1,10 @@
+[
+  {
+    "country": "USA",
+    "zipCodes": ["10001", "20001", "30301", "60601", "90001"]
+  },
+  {
+    "country": "Canada",
+    "zipCodes": ["M5H 2N2", "V6C 2T5", "T2P 0J4", "H3B 4G7", "R3B 0P4"]
+  }
+]

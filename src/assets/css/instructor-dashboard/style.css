@@ -1,0 +1,1911 @@
+.customOverlay {
+    display: none;
+}
+
+.customOverlay.show {
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.upgradeBox {
+    padding: 39px 24px 19px;
+    background-color: var(--Gray-200);
+    border-radius: 24px;
+    position: relative;
+}
+
+.upgradeBox a {
+    font-size: 14px;
+}
+
+.upgradeBox .imgBlock {
+    background-color: var(--Gray-200);
+    width: 71px;
+    height: 71px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: -40px;
+}
+
+.upgradeBox .imgBlock div {
+    background-color: var(--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layoutHead {
+    position: fixed;
+    top: 0;
+    left: 280px;
+    z-index: 999;
+    padding: 55px 40px 15px 32px;
+    width: calc(100% - 700px) !important;
+    padding-right: 50px;
+    background-color: #fff;
+}
+
+.layoutHead h4 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.layoutHead .backBtn svg {
+    color: #AFBDCA;
+}
+
+.layoutHead h4 strong {
+    font-weight: 700;
+}
+
+.dashboardMain {
+    display: flex;
+}
+
+.dashboardMain .sideNav {
+    width: 280px;
+    padding: 63px 0px 54px 0px;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid rgba(63, 63, 68, 0.10);
+}
+
+.dashboardMain .sideNav .logoBlock {
+    padding: 0 32px;
+}
+
+.dashboardMain .sideNav .logoBlock a {
+    display: flex;
+    align-items: center;
+    font-size: 18.404px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--neutral-800);
+}
+
+.dashboardMain .sideNav .logoBlock a img {
+    margin-right: 4px;
+}
+
+.dashboardMain .sideNav .navBar {
+    padding: 0px 32px 0;
+    height: calc(100vh - 400px);
+    overflow: auto;
+    margin-top: 47px;
+}
+
+.dashboardMain .sideNav .navBar ul {
+    list-style: none;
+}
+
+.dashboardMain .sideNav .navBar ul li {
+    margin-bottom: 16px;
+}
+
+.dashboardMain .sideNav .navBar ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.dashboardMain .sideNav .navBar ul li a {
+    background-color: var(--white);
+    color: var(--secondary-Main);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 16px;
+    border-radius: 8px;
+    column-gap: 16px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.dashboardMain .sideNav .navBar ul li:hover a,
+.dashboardMain .sideNav .navBar ul li.active a {
+    background-color: var(--primary-Main);
+    color: var(--white);
+}
+
+.dashboardMain .sideNav .navBar ul li:hover a img,
+.dashboardMain .sideNav .navBar ul li.active a img {
+    filter: brightness(0) invert(1);
+}
+
+.dashboardMain .sideNav .navBar ul li a span {
+    position: absolute;
+    right: 10px;
+    border-radius: 8px;
+    background: var(--Primary-border);
+    color: var(--primary-Main);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 2px 8px;
+}
+
+.dashboardMain .sideNav .navBar .bottomUl {
+    position: absolute;
+    left: 42px;
+    bottom: 54px;
+    right: 40px;
+}
+
+.dashboardMain .sideNav .navBar .bottomUl li button {
+    color: var(--red-500);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 16px;
+    border-radius: 8px;
+    column-gap: 16px;
+    transition: all 0.5s;
+    border: none;
+    width: 100%;
+}
+
+.dashboardMain .sideNav .navBar ul.bottomUl li button:hover {
+    background-color: var(--red-500);
+    color: var(--white);
+}
+
+.dashboardMain .sideNav .navBar ul.bottomUl li button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.dashboardMain .dashboardArea {
+    width: calc(100% - 280px);
+    margin-left: auto;
+}
+
+.dashboardHead {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 280px);
+    padding: 47px 40px 15px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    z-index: 9;
+}
+
+.dashboardHead .leftBlock {
+    flex: 1;
+}
+
+.subPageTitleWithShort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboardHead .leftBlock h4 {
+    font-weight: 300;
+}
+
+.dashboardHead .rightBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 620px;
+    max-width: 100%;
+}
+.dashboardHead .rightBlock .forMobile{
+    display: none;
+}
+.menuProfile .MuiList-root {
+    padding: 30px;
+}
+
+.menuProfile .MuiList-root li {
+    min-width: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menuProfile .MuiList-root li img {
+    margin-right: 20px;
+}
+
+.menuProfile .MuiList-root li:last-child {
+    color: var(--red-500);
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.menuProfile .MuiList-root li:last-child:hover {
+    color: var(--white);
+    background-color: var(--red-500);
+}
+
+.dashboardHead .rightBlock .newCoursebtndiv {
+    margin-right: 64px;
+}
+
+.dashboardHead .rightBlock ul {
+    width: 250px;
+    max-width: 100%;
+    margin-right: 50px;
+}
+
+.dashboardHead .rightBlock li .MuiAvatar-root {
+    background-color: var(--Gray-200);
+    width: 66px;
+    height: 66px;
+    margin-right: 16px;
+    color: var(--secondary-Main);
+}
+
+.dashboardHead .rightBlock li .MuiTypography-body1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--secondary-Main);
+}
+
+.dashboardHead .rightBlock li .MuiTypography-body2 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--secondary-Main);
+}
+
+.mainDashboardArea {
+    padding: 143px 40px 0 30px;
+}
+
+.pageFilter {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.filterSearch {
+    position: relative;
+    width: 298px;
+    max-width: 100%;
+}
+
+.filterSearch .form-control {
+    padding: 9px 12px 9px 40px;
+    height: 40px;
+    border-radius: 24px;
+}
+
+.filterSearch img {
+    position: absolute;
+    left: 12px;
+    top: 11px;
+}
+
+.pageFilterRight {
+    display: flex;
+    column-gap: 8px;
+}
+
+.pageFilterRight .MuiButtonGroup-root button {
+    border-color: var(--Neutral-Light-100);
+}
+
+.pageFilterRight .MuiButtonGroup-root button.active {
+    background-color: var(--Neutral-Light-100);
+}
+
+.tableContainer table {
+    border-collapse: separate;
+    border-spacing: 0 0px;
+    white-space: nowrap;
+}
+
+.tableContainer table thead tr th {
+    background: #F7F7F7;
+    color: rgba(63, 63, 68, 0.50) !important;
+    font-family: 'Gordita';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400 !important;
+    text-transform: initial !important;
+}
+
+.tableContainer table thead tr th:first-child {
+    border-radius: 8px 0px 0 8px;
+}
+
+.tableContainer table thead tr th:last-child {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.tableContainer table tbody tr td {
+    border: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-family: 'Gordita';
+    color: var(--secondary-Main) !important;
+}
+
+.tableContainer table tbody tr td .MuiChip-root {
+    border-radius: 8px;
+    background-color: var(--Primary-Surface);
+    color: var(--primary-Light);
+    font-family: 'Gordita';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.customPagination .MuiTablePagination-actions {
+    display: none;
+}
+
+.customPagination p {
+    margin: 0;
+}
+
+.customPagination .MuiToolbar-root {
+    min-height: initial;
+    padding-left: 0px;
+}
+
+.customPagination .firstlastButton button {
+    border-radius: 20px;
+    background: var(--Neutral-Light-50);
+    color: var(--neutral-light-400);
+    padding: 10px 16px;
+}
+
+.customPagination .mainPagination .MuiPagination-root ul li button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--Neutral-Light-50);
+    color: var(--neutral-light-400);
+    border-radius: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.customPagination .mainPagination .MuiPagination-root ul li button.Mui-selected {
+    background-color: var(--Neutral-Light-500);
+    color: var(--white);
+}
+
+.instructorsTable .customerName .MuiTypography-root {
+    color: var(--Neutral-Light-500);
+    font-weight: 500;
+}
+
+/* Start insinstructor Dashboard */
+
+/* .insinstructorWallet{
+    background-color: var(--Gray-200);
+    border-radius: 24px;
+}
+.insinstructorWallet .topWallet p.subTextTwo{
+    margin: 0 0 9px;
+}
+.insinstructorWallet .bottomWallet{
+    background-color: var(--secondary-Main);
+    padding: 16px 32px;
+    border-radius: 0px 0px 24px 24px;
+}
+.insinstructorWallet .bottomWallet .orangeBtn{
+    font-size: 14px;
+}
+.insinstructorWallet .bottomWallet p{
+    margin: 0 0 0px;
+    color: var(--white);
+}
+.insinstructorWallet .bottomWallet h4{
+    color: var(--white);
+    margin: 0 0 0px;
+} */
+.rightWidgets {
+    margin: 40px 0 0 !important;
+}
+
+.rightWidgets>p {
+    margin: 0 0 20px;
+}
+
+.rightWidgetsInner {
+    border-radius: 20px;
+    background: var(--neutral-100);
+    min-height: 208px;
+}
+
+.earningOverviewSelect {
+    padding: 9px 24px 9px 12px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+}
+
+/* End insinstructor Dashboard */
+
+/* Start my profile page */
+
+.profileNameWithPic {
+    margin-bottom: 40px;
+}
+
+.profileNameWithPic p {
+    color: var(--neutral-light-400);
+}
+
+.profileInfo {
+    margin-bottom: 40px;
+    max-width: 780px;
+}
+
+.profileInfo ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profileInfo ul li {
+    min-width: 248px;
+    max-width: 50%;
+}
+
+.profileInfo ul li .MuiListItemIcon-root img {
+    width: 16px;
+}
+
+.profileInfo ul li .MuiTypography-body1 {
+    word-break: break-word;
+}
+
+.profileNameWithPic .MuiAvatar-root {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 14px;
+}
+
+.profileSummaryBlock p {
+    margin: 0 0 6px;
+    /* max-width: 650px; */
+    color: var(--neutral-light-400);
+}
+
+.profileAction {
+    margin-bottom: 29px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.profileAction .outlineBtn {
+    background-color: var(--white);
+    font-weight: 700;
+    color: var(--neutral-light-400);
+}
+
+.profileDetailsView {
+    border-radius: 8px;
+    background: var(--Neutral-Light-50);
+    padding: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.profileDetailsView .detailsView {
+    padding: 0 30px;
+}
+
+.profileDetailsView .detailsView .CertificatesInfo p {
+    color: var(--neutral-light-400);
+}
+
+.profileDetailsViewScroll {
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 40px; */
+    max-height: 250px;
+    overflow-y: auto;
+    margin: 8px 0;
+    padding-right: 8px;
+}
+
+.detailsView>p {
+    margin: 0 0 10px;
+}
+
+.detailsViewBlock {
+    background-color: var(--white);
+    border-radius: 12px;
+    border: 1px dashed var(--Neutral-Light-100);
+    padding: 12px 12px;
+    margin-bottom: 12px;
+}
+
+.detailsViewBlock:last-child {
+    margin-bottom: 0px;
+}
+
+.detailsViewBlock ul li .MuiAvatar-root {
+    margin-right: 12px;
+    background-color: transparent;
+}
+
+.detailsViewBlock .MuiIconButton-root {
+    /* width: 24px;
+    height: 24px; */
+    background-color: var(--Neutral-200);
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.detailsViewBlock ul li .MuiTypography-root {
+    word-break: break-word;
+}
+
+.profileAccountInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.profileAccountInfoBlock {
+    border-radius: 12px;
+    border: 1px dashed var(--Neutral-Light-100);
+    background: #EDEDED;
+    padding: 12px 12px;
+}
+
+.profileAccountInfoBlock p.subTextTwo {
+    color: var(--Neutral-Light-500);
+    margin: 0 0 2px;
+}
+
+.profileAccountInfoBlock p.smallText {
+    color: var(--neutral-light-400);
+    font-size: 10px;
+}
+
+.settingsListBlock .detailsViewBlock {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.settingsListBlock .detailsViewBlock .MuiButtonBase-root:hover {
+    background-color: transparent;
+}
+
+.settingsListBlock .detailsViewBlock .MuiTypography-root {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--secondary-Main);
+}
+
+.settingsListBlock .detailsViewBlock .MuiListItemSecondaryAction-root {
+    width: 24px;
+}
+
+.detailsView .addDivBtn button {
+    background-color: transparent !important;
+    padding: 0;
+}
+
+.detailsView .addDivBtn button .MuiSvgIcon-root {
+    margin-left: 5px;
+}
+
+.disableAccountBtn button {
+    background-color: transparent !important;
+    padding: 0;
+}
+
+.editProfileForm .formGroup {
+    margin-bottom: 0px;
+}
+
+.editProfileForm .formGroup textarea.form-control {
+    height: 80px;
+}
+
+.editProfileForm .inputBtnRight button {
+    position: absolute;
+    right: 6px;
+    top: 9px;
+}
+
+.editProfileForm .inputBtnRight .form-control {
+    padding: 15px 104px 15px 24px;
+}
+
+.profilePhotoUpload {
+    position: relative;
+    width: 100px;
+}
+
+.profilePhotoUpload .MuiAvatar-root {
+    width: 100px;
+    height: 100px;
+}
+
+.profilePhotoUpload .MuiBox-root {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Primary-border);
+    border-radius: 100%;
+}
+
+.profilePhotoUpload .MuiBox-root button {
+    border: none;
+    background-color: transparent;
+}
+
+.profilePhotoUpload .MuiBox-root input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.uploadCertificateModal .formGroup {
+    margin: 0 0 16px;
+}
+
+/* End my profile page */
+
+/* Start Price Setting page */
+
+.amountInputGroup {
+    position: relative;
+}
+
+.amountInputGroup .positionLeft span {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: rgba(63, 63, 68, 0.30);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-right: 1px solid rgba(63, 63, 68, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 100%;
+}
+
+.amountInputGroup .positionLeft .form-control {
+    padding: 12px 19px 12px 60px;
+    background: #F7F7F7;
+}
+
+.withdrawBox {
+    border-radius: 8px;
+    border: 1px solid rgba(63, 63, 68, 0.08);
+    background: rgba(247, 247, 247, 0.40);
+    margin-bottom: 16px;
+    padding: 12px;
+}
+
+.withdrawBox .subTextTwo {
+    color: rgba(63, 63, 68, 0.30);
+    margin: 0;
+}
+
+.amountBalance {
+    border-radius: 16px;
+    background: var(--Neutral-100, #F6F8FA);
+    padding: 13px 24px;
+}
+
+.payoutList {
+    padding: 39px 0 0;
+}
+
+.recentPayoutsTable thead tr th {
+    color: rgba(63, 63, 68, 0.50) !important;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    background: #F7F7F7;
+    text-transform: initial !important;
+    font-family: 'Gordita';
+}
+
+.recentPayoutsTable thead tr th:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+.recentPayoutsTable thead tr th:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.recentPayoutsTable tbody td {
+    color: rgba(63, 63, 68, 0.40);
+    font-family: 'Gordita';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: none;
+}
+
+.recentPayoutsTable tbody td .MuiChip-root {
+    border-radius: 8px;
+    background: var(--Primary-Surface);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.savePaymentList {
+    border-radius: 24px;
+    background: rgba(247, 247, 247, 0.70);
+    padding: 24px;
+}
+
+.savePaymentList .paymentList {
+    border-radius: 16px;
+    background-color: var(--white);
+    padding: 24px;
+}
+
+.savePaymentList .paymentList button {
+    border: none;
+    background-color: transparent;
+}
+
+.paymentModal .MuiTab-root {
+    border-radius: 8px;
+    background: #F7F7F7;
+    width: 72px;
+    height: 48px;
+    padding: 0 9px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 7px !important;
+}
+
+.paymentModal .MuiTab-root:first-child {
+    margin-left: 0px !important;
+}
+
+.paymentModal .MuiTab-root p img {
+    display: block;
+    margin: 0 auto;
+}
+
+.paymentModalTab .MuiTabPanel-root {
+    padding: 24px 0 0;
+}
+
+.paymentModal .MuiDialog-paper {
+    max-width: 375px;
+}
+
+.paymentModal .creditCardInfo {
+    border-bottom: 1px solid rgba(63, 63, 68, 0.10);
+    padding: 0 0 24px;
+}
+
+.creditCardInfoAction {
+    padding: 24px 0 0;
+}
+
+.creditCardInfoAction button {
+    width: 100%;
+}
+
+.creditCardInfoAction .normalBtn {
+    padding: 10px 17px 11px;
+    color: var(--neutral-700);
+}
+
+
+/* End Price Setting page */
+
+/* Start Course List */
+
+.courseFilter .MuiSelect-outlined {
+    padding: 8px 8px;
+    color: rgba(63, 63, 68, 0.70);
+    font-family: 'Gordita';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.courseFilter .MuiOutlinedInput-notchedOutline {
+    border: none;
+}
+
+.courseListTable .statusTag {
+    font-family: 'Gordita';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.courseListTable .publishTag {
+    color: var(--neutral-800);
+}
+
+.courseListTable .reviewTag {
+    color: #1283FF;
+}
+
+.courseListTable .courseNameTd .MuiAvatar-root {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: var(--secondary-Main);
+}
+
+.courseListTable .courseNameTd .MuiListItemText-root .MuiTypography-body1 {
+    font-family: 'Gordita';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tablePagination select {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+}
+
+.tablePagination .MuiPaginationItem-root {
+    font-family: 'Gordita';
+}
+
+
+
+/* End Course List */
+
+/* Start Course Details */
+
+.topStudentListTable .progressTd {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.topStudentListTable .MuiListItemText-root .MuiTypography-body1 {
+    font-family: 'Gordita';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.topStudentListTable .progressTd .MuiLinearProgress-root {
+    height: 8px;
+    border-radius: 16px;
+}
+
+.courseCoverBox {
+    background-color: var(--Neutral-200);
+    border-radius: 24px;
+    /* padding: 32px; */
+    min-height: 223px;
+    max-height: 223px;
+    overflow: hidden;
+}
+.courseCoverBox .MuiAvatar-root{
+    width: 100%;
+    height: 223px;
+    border-radius: 0;
+    background-color: transparent;
+}
+.courseStatus .MuiAlert-root{
+    align-items: center;
+    padding: 8px 16px;
+}
+.courseStatus .MuiAlert-message{
+    padding: 0;
+    font-family: 'Gordita' !important;
+}
+.courseStatus .MuiAvatar-root svg{
+    display: none;
+}
+.courseStatus .MuiAlert-outlinedError .MuiAlert-icon{
+    background-image: url(../../images/Reject.svg);
+    width: 24px;
+    height: 24px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.courseStatus .MuiAlert-outlinedWarning .MuiAlert-icon{
+    background-image: url(../../images/review-icon.svg);
+    width: 24px;
+    height: 24px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.courseStatus .MuiAlert-outlinedWarning .MuiAlert-icon svg,
+.courseStatus .MuiAlert-outlinedError .MuiAlert-icon svg{
+    display: none;
+}
+
+
+/* End Course Details */
+
+/* Start New Course Page */
+
+.courseContentBox {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0px 10px 32px 0px rgba(63, 63, 68, 0.1);
+}
+
+.courseGuidesBlock {
+    background-color: #F7F7F7B2;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.guidesVideoBlock {
+    background-color: var(--white);
+    border-radius: 8px;
+    position: relative;
+}
+
+.guidesVideoBlock button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--secondary-Main) !important;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    color: var(--Primary-border);
+}
+
+.teacherHandbookBox {
+    background-color: #F7F7F7B2;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 32px 0 0;
+}
+
+.lastSubmitedBox {
+    margin: 32px 0 0;
+}
+
+.uploadViewTwo .uploadViewInner {
+    padding-right: 0px;
+}
+
+.uploadViewTwo .uploadViewInner .MuiLinearProgress-root {
+    background-color: var(--white);
+}
+
+.uploadViewTwo .uploadViewInner .MuiLinearProgress-root .MuiLinearProgress-bar {
+    background-color: #1283FF;
+}
+
+.uploadViewTwo .filePlayPause {
+    position: absolute;
+    right: 30px;
+    bottom: -4px;
+    padding: 0;
+    border: 0px;
+    background-color: #d2d2d3;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadViewTwo .filePlayPause svg {
+    font-size: 12px;
+    color: var(--white);
+}
+
+.uploadViewTwo .uploadViewInner .fileDlt {
+    right: 0px;
+}
+
+.questionRadio {
+    position: relative;
+}
+
+.questionRadioInner {
+    background-color: #EDEDF5;
+    border: 1px solid #EDEDF5;
+    padding: 14px 25px 14px 25px;
+    border-radius: 5px;
+    min-height: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 16px;
+}
+
+.questionRadio input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.questionRadio input:checked+.questionRadioInner {
+    border-color: var(--primary-Main);
+    background-color: var(--Primary-Surface);
+}
+
+.questionBox {
+    border: 1px dashed #1283FF;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.questionBoxInner {
+    background-color: var(--Neutral-200);
+    border: 1px solid var(--Neutral-200);
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.questionBoxInner:last-child {
+    margin-bottom: 0px;
+}
+
+.questionBoxInner button {
+    background-color: transparent;
+    border: none;
+}
+
+.questionBoxInner .lightforthCheckbox {
+    align-items: center;
+}
+
+.questionBoxInner.active {
+    border-color: var(--primary-Main);
+    background-color: var(--Primary-Surface);
+}
+
+.questionBox .addOptionBtn {
+    background-color: var(--Neutral-200);
+    color: var(--primary-Main);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.questionBox .addOptionBtn svg {
+    margin-right: 8px;
+}
+
+.courseTitleBox {
+    background-color: var(--Gray-200);
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.uploadCoverView {
+    background-color: var(--Gray-200);
+    padding: 12px;
+    border-radius: 8px;
+}
+.uploadCoverView .viewImg{
+    max-height: 75px;
+    object-fit: cover;
+}
+.uploadCoverView .MuiIconButton-root {
+    background-color: var(--Primary-border);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.addQuizEditBox {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 14px 16px;
+    box-shadow: 0px 10px 32px 0px rgba(63, 63, 68, 0.1);
+    margin-bottom: 14px;
+}
+.addQuizEditBox:last-child{
+    margin-bottom: 0px;
+}
+
+/* End New Course Page */
+
+
+/* Start Notification Page */
+
+
+.notifiList .MuiAvatar-root {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--secondary-Main);
+}
+
+.notifiList .MuiListItemText-root {
+    padding-left: 24px;
+    padding-right: 84px;
+}
+
+.notifiList .MuiListItem-root {
+    padding-right: 0px !important;
+}
+
+.notifiList .MuiListItemButton-root {
+    padding-right: 78px !important;
+}
+
+.notifiList .MuiListItemSecondaryAction-root {
+    padding-right: 8px;
+}
+
+.notifiList .MuiBadge-badge {
+    width: 20px;
+    height: 20px;
+    background-color: var(--Primary-border);
+    padding: 0 4px;
+}
+
+.notifiList li {
+    margin-bottom: 24px;
+}
+
+.notifiListMenu li {
+    margin-bottom: 0px;
+}
+
+.notifiList li:last-child {
+    margin-bottom: 0px;
+}
+
+.notifiFilter {
+    background-color: #F7F7F7B2;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.notifiFilter .lightforthCheckbox {
+    align-items: center;
+}
+
+.notifiFilter .lightforthCheckbox label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.notifiFilter .lightforthCheckbox .mainCheck span {
+    top: 0;
+}
+
+/* End Notification Page */
+
+/* Start Guide Page */
+
+.guideVideoBlock {
+    border-radius: 24px;
+    background-color: var(--primary-Main);
+    height: 410px;
+}
+
+.divideYourCourseBox {
+    background-color: #F7F7F7B2;
+    border-radius: 24px;
+    padding: 18px 24px;
+    border-radius: 16px;
+}
+
+.divideYourCourseBox .imgBlock {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talkToUsBlock {
+    background-color: #F7F7F7B2;
+    border-radius: 24px;
+    padding: 24px 32px;
+    border-radius: 16px;
+}
+
+.talkToUsBlock p.smallText {
+    font-size: 10px;
+    color: var(--primary-Main);
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Start Guide Page */
+
+/* Start Student List page */
+
+.insStudentListTable .taskTd span {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--secondary-Main);
+}
+
+.insStudentListTable .progressTd p {
+    font-size: 10px;
+    color: var(--secondary-Main);
+    margin: 0 0 5px;
+}
+
+.insStudentListTable .MuiLinearProgress-root {
+    height: 8px;
+    background-color: var(--Gray-200);
+}
+
+.insStudentListTable .studentNameTd .MuiTypography-body1 {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--secondary-Main);
+}
+
+.selectCourseBox {
+    padding: 8px;
+    background-color: #F7F7F7;
+    border-radius: 8px;
+}
+
+/* End Student List page */
+
+
+/* Start Dashborad  */
+
+.shadowBox {
+    box-shadow: 0px 10px 32px 0px rgba(63, 63, 68, 0.10);
+    background: #fff;
+    border-radius: 16px;
+}
+
+.dashWeeklySales .topBlock {
+    background-color: var(--Gray-200);
+    border-radius: 8px;
+    padding: 1px 16px 10px;
+}
+
+.dashWeeklySales .bodyBlock {
+    padding: 1px 16px 10px;
+    margin-top: 0;
+}
+
+.dashWeeklySales .bodyBlock .MuiAvatar-root {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: var(--secondary-Main);
+}
+
+.dashWeeklySales .bodyBlock .MuiListItemText-root .MuiTypography-root {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--secondary-Main);
+}
+
+.dashWeeklySales .bodyBlock .MuiChip-root {
+    border-radius: 8px;
+    background: var(--Primary-Surface);
+    ;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--primary-Light);
+    font-family: 'Gordita' !important;
+}
+
+.dashRightList .MuiAvatar-root {
+    width: 48px;
+    height: 48px;
+    background-color: var(--secondary-Main);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.dashRightList .MuiListItemText-root .MuiTypography-body1 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--secondary-Main);
+}
+
+.dashRightList .MuiListItemText-root .MuiTypography-body2 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    color: var(--secondary-Main);
+}
+
+.dashRightList .MuiListItemSecondaryAction-root p.subTextTwo {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: rgba(63, 63, 68, 0.30);
+}
+
+.customStudentProgress .progressBlock {
+    border-radius: 8px;
+    background: linear-gradient(270deg, #B0F5D8 0%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 8px 16px;
+    min-width: 175px;
+}
+
+.customStudentProgress .progressBlock p.subTextTwo {
+    color: var(--secondary-Main);
+    font-weight: 400;
+}
+
+.customStudentProgress .progressValue p.subTextTwo {
+    color: rgba(63, 63, 68, 0.40);
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.pieCahrtUl {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: max-content;
+    max-width: 100%;
+}
+
+.pieCahrtUl li {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 16px;
+}
+
+.pieCahrtUl li:last-child {
+    margin-bottom: 0px;
+}
+
+.pieCahrtUl li:nth-child(1):before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--primary-Main);
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.pieCahrtUl li:nth-child(2):before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--Primary-border);
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.pdfViewModal .pdfViewBlock {
+    height: calc(100vh - 284px);
+}
+
+
+/* End dashboard */
+
+/* Start Custom Modal */
+
+.modalClose {
+    padding: 0 !important;
+    background-color: transparent !important;
+    opacity: 0.5;
+    min-width: initial !important;
+}
+
+.modalClose svg {
+    color: #3F3F44;
+}
+
+.modalClose:hover {
+    opacity: 1;
+}
+
+.modalOne .MuiDialogTitle-root {
+    padding: 20px 32px;
+}
+
+.modalOne .MuiDialogActions-root {
+    padding: 20px 32px;
+}
+
+.modalOne .MuiDialogContent-root {
+    padding: 0px 32px 38px;
+}
+
+.modalOne .fileUploadTwo {
+    border: 1px dashed var(--Primary-dark);
+}
+
+.modalOne .fileUploadTwo p {
+    margin: 0 0 8px;
+    font-weight: 400;
+}
+
+.modalOne .fileUploadTwo p.subTextOne span {
+    color: var(--Primary-dark);
+    font-weight: 700;
+}
+
+.modalOne .lightforthCheckbox .mainCheck span {
+    top: 0;
+}
+
+.modalOne .lightforthCheckbox label {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.modalOne .MuiDialogActions-root .normalBtn {
+    padding: 10px 17px 11px;
+    color: var(--neutral-700);
+    min-width: 145px;
+}
+.notificationsSettingModal .MuiDialogActions-root button{
+    min-width: 145px;
+}
+
+/* End Custom Modal */
+
+
+/* Start logout Modal */
+
+.logoutModal .MuiDialog-paper {
+    width: 362px;
+    max-width: 100%;
+}
+
+.logoutModal .imgBlock {
+    background-color: var(--Neutral-900);
+    width: 54px;
+    height: 54px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.logoutModal .contentBlock p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.logoutModal .MuiDialogActions-root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    padding: 20px 27px 27px;
+}
+
+.logoutModal .MuiDialogActions-root button {
+    margin: 0;
+}
+
+.logoutModal .MuiDialogTitle-root {
+    padding: 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoutModal .MuiDialogTitle-root button {
+    color: rgba(63, 63, 68, 0.3);
+}
+
+.logoutModal .MuiDialogTitle-root button:hover {
+    color: rgba(63, 63, 68, 1);
+}
+
+/* End logout Modal */
+
+/* Start statusModal */
+
+
+.statusModal .MuiDialog-paper {
+    width: 362px;
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+.statusModal .MuiDialogTitle-root button {
+    color: rgba(63, 63, 68, 0.3);
+    position: absolute;
+    right: 0;
+    top: 16px;
+    padding: 0;
+}
+
+.statusModal .MuiDialogTitle-root button:hover {
+    color: rgba(63, 63, 68, 1);
+}
+
+.statusModal .MuiDialogContent-root {
+    padding: 0px 24px 32px;
+}
+
+.priceInuptGroup button {
+    background-color: transparent;
+    border: none;
+    color: #3F3F444D;
+    font-size: 16px;
+    font-weight: 500;
+    border-right: 1px solid #3F3F441A;
+    width: 44px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.PhoneInput {
+    position: relative;
+}
+
+.PhoneInput input {
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-200);
+    box-sizing: border-box;
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--neutral-800);
+    transition: all .3s;
+    font-family: 'Gordita';
+}
+
+.PhoneInputCountrySelectArrow {
+    background-image: url(../../images/arrow-down.svg);
+    width: 20px !important;
+    height: 17px !important;
+    border: none !important;
+    background-repeat: no-repeat;
+    transform: none !important;
+    background-position: center;
+}
+
+.CustomPhoneInput {
+    position: relative;
+}
+
+.CustomPhoneInput .PhoneInput {
+    position: absolute;
+    left: 24px;
+    top: 12px;
+}
+.CustomPhoneInput .PhoneInput p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.PhoneInputSelect{
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 45px;
+    margin-right: 8px;
+}
+.PhoneInputSelect .MuiSelect-select{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    padding-right: 0px !important;
+}
+.CustomPhoneInput .PhoneInput .MuiSvgIcon-root{
+    right: 0 !important;
+}
+.CustomPhoneInput .PhoneInput input{
+    border: none;
+    background-color: transparent;
+}
+.CustomPhoneInput .PhoneInput .MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+
+.CustomPhoneInput input.form-control {
+    padding: 15px 24px 15px 105px;
+}
+
+/* Start My Course page */
+
+.courseFilterCheckbox{
+    position: relative;
+}
+.courseFilterCheckbox input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.courseFilterCheckbox span{
+    border: 1px solid var(--Neutral-Soft-Grey);
+    padding: 9px 30px 9px 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: var(--Neutral-Black);
+    display: block;
+}
+.courseFilterCheckbox input:checked + span{
+    background-color: var(--Neutral-Black);
+    color: var(--white);
+}
+
+.courseFilterRadio{
+    position: relative;
+}
+.courseFilterRadio input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.courseFilterRadio span{
+    border: 1px solid var(--Neutral-Soft-Grey);
+    padding: 9px 30px 9px 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: var(--Neutral-Black);
+    display: block;
+    width: 100%;
+}
+.courseFilterRadio input:checked + span{
+    background-color: var(--Neutral-Black);
+    color: var(--white);
+}
+.searchAutocomplete.searchStudentCourse button{
+    background-color: transparent;
+}
+.searchAutocomplete.searchStudentCourse .MuiOutlinedInput-root{
+    padding: 12px 30px 12px 24px !important;
+    border-radius: 8px;
+    background-color: var(--white);
+    border: 1px solid var(--Neutral-Soft-Grey);
+    font-family: 'Gordita';
+}
+.searchAutocomplete.searchStudentCourse{
+    width: 100%;
+}
+.courseSortBtn button{
+    display: inline-flex;
+    column-gap: 14px;
+    color: var(--Neutral-Black);
+    font-family: 'Gordita';
+}
+.courseThumb{
+    background-color: var(--white);
+    border-radius: 16px;
+}
+.courseThumb:hover{
+    box-shadow: 0px 40px 100px 0px #0000000D;
+}
+.resuleTutorBox{
+    background-color: var(--white);
+    border-radius: 16px;
+}
+.resuleTutorBox:hover{
+    box-shadow: 0px 40px 100px 0px #0000000D;
+}
+
+
+
+/* Start Active deActive modal css */
+
+.deActiveModal .MuiDialog-paper,
+.reactiveModal .MuiDialog-paper{
+    width: 375px;
+    max-width: 100%;
+}
+.deActiveModal .contentBlock .subTextOne {
+    color: var(--neutral-800);
+}
+
+.deActiveModal .MuiDialogTitle-root,
+.reactiveModal .MuiDialogTitle-root {
+    padding: 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deActiveModal .MuiDialogTitle-root button,
+.reactiveModal .MuiDialogTitle-root button {
+    color: rgba(63, 63, 68, 0.3);
+}
+
+.deActiveModal .MuiDialogTitle-root button:hover,
+.reactiveModal .MuiDialogTitle-root button:hover {
+    color: rgba(63, 63, 68, 1);
+}
+.deActiveModal .MuiDialogActions-spacing {
+    padding: 20px 24px 27px;
+}
+.deActiveModal .MuiDialogActions-root button {
+    margin: 0;
+    color: var(--red-500);
+}
+.deActiveModal .MuiDialogActions-root button:hover {
+    background-color: var(--red-500);
+    color: var(--white);
+}
+.reactiveModal .imgBlock {
+    background-color: var(--red-600);
+    width: 54px;
+    height: 54px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.reactiveModal .contentBlock p {
+    text-align: center;
+}
+.reactiveModal .contentBlock .txtMsg {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.reactiveModal .contentBlock .txtCoution {
+    color: var(--Neutral-Black);
+}
+
+.reactiveModal .MuiDialogActions-root{
+    padding: 0px 30px 30px;
+    flex-direction: column;
+}
+
+.resendImgBlock {
+    width: auto;
+    text-align: center;
+    margin: 0 0 56px;
+}
+.reactiveModal .contentBlock h4 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.reactiveModal .contentBlock .resendtxtMsg {
+    color: var(--Neutral-600);
+    margin-bottom: 16px;
+}
+
+.successModal .imgBlock {
+    background-color: transparent;
+}
+.contentBlock .successtxtMsg {
+    color: var(--secondary-Main);
+}
+
+.reactiveModal .contentBlock .mailTxt {
+    color: var(--Neutral-600);
+}
+.reactiveModal .contentBlock .mailTxt span {
+    color: var(--Neutral-900);
+}
+.otpFildBox input {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: var(--Neutral-900);
+    padding: 12px;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-Main);
+}
+.otpFildBox input:focus {
+    border-color: var(--primary-Main);
+}
+.reactiveModal .MuiDialogActions-root p {
+    margin-top: 21px !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.reactiveModal .MuiDialogActions-root p button {
+    background: none;
+    border: none;
+    font-weight: 700;
+    color: var(--primary-Main);
+}
+
+/* End Active deActive modal css */

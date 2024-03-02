@@ -1,0 +1,388 @@
+@media only screen and (max-width: 1439px) {
+    .dashboardMain .sideNav {
+        width: 250px;
+        padding: 50px 0px 50px 24px;
+    }
+    .dashboardMain .sideNav .navBar {
+        padding-right: 24px;
+    }
+    .dashboardMain .dashboardArea {
+        width: calc(100% - 250px);
+    }
+    .dashboardHead {
+        width: calc(100% - 250px);
+        padding: 15px 40px 15px 32px;
+    }
+    .mainDashboardArea {
+        padding: 128px 24px 0 24px;
+    }
+    .dashboardMain .sideNav .navBar ul.bottomUl {
+        left: 24px;
+    }
+
+    /* rakesh */
+    .courseProfAction_area .grayOutlineBtn {
+        font-size: 14px;
+    }
+    /* rakesh */
+
+}
+@media only screen and (max-width: 1279px) {
+    .dashboardMain .sideNav {
+        width: 230px;
+    }
+    .dashboardMain .dashboardArea {
+        width: calc(100% - 230px);
+    }
+    .dashboardHead {
+        width: calc(100% - 230px);
+        padding: 15px 30px 15px 30px;
+    }
+    .filterSearch {
+        width: 240px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .pageFilterRight{
+        display: flex;
+        column-gap: 8px;
+        position: relative;
+    }
+    .pageFilterRight>button{
+        display: block;
+    }
+    .pageFilterRightInner{
+        display: none;
+        position: relative;
+    }
+    .pageFilterRightInner.show{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: var(--white);
+        padding: 24px;
+        left: 0;
+        width: 240px;
+        top: 46px;
+        row-gap: 8px;
+        z-index: 99;
+        box-shadow: 0px 20px 50px 0px rgba(13, 0, 77, 0.20);
+        border-radius: 8px;
+    }
+    .pageFilterRightInner .mobileHide{
+        display: none;
+    }
+    .pageFilter{
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+    .pageFilterLeft{
+        width: calc(100% - 0px);
+    }
+    .pageFilterRight{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .pageFilterRightLeftBox{
+        position: relative;
+    }
+    .pageFilterRightLeftBox>button{
+        display: inline-flex;
+        color: var(--neutral-light-400);
+    }
+    .pageFilterRightBox{
+        column-gap: 8px;
+        display: flex;
+    }
+    .pageFilterRightBox>button {
+        display: inline-flex;
+    }
+    .filterSearch {
+        width: 100%;
+    }
+
+    /* rakesh */
+    .coursePg_filtr .primaryBtnSmall > span {
+        display: none;
+    }
+    .coursePg_filtr .primaryBtnSmall svg {
+        margin-right: 0;
+    }
+    .coursePg_filtr .pageFilterLeft {
+        width: 60%;
+    }
+    .coursePg_filtr .pageFilterRight {
+        padding-left: 10px;
+    }    
+    .searchArea>button {
+        display: block;
+    }
+    .courseProfAction_area .grayOutlineBtn {
+        font-size: 12px;
+    }
+    /* rakesh */
+}
+@media only screen and (max-width: 1050px){
+    .pageFilter{
+        flex-wrap: wrap;
+    }
+    .profileRow .profileLeft {
+        padding-right: 24px;
+    }
+    
+    /* rakesh */
+    .coursePg_filtr {
+        flex-wrap: nowrap;
+    }
+    
+    .coursePg_filtr .pageFilterRight>button {
+        min-width: auto;
+    }
+    .coursePg_filtr .pageFilterRight .primaryBtnSmall {
+        padding: 8px 10px;
+    }
+    .courseOut_listItm {
+        padding: 12px !important;
+    }
+    .couseOutline_list > h3 {
+        padding: 12px 12px 0;
+    }
+    .dashboardMain .sideNav {
+        padding: 50px 0px 50px 14px;
+    }
+    .dashboardMain .sideNav .navBar ul li a {
+        padding: 12px 10px;
+    }
+    /* rakesh */
+}
+@media only screen and (min-width: 851px){
+    .dashboardMain .sideNav>button{display: none;}
+    .navMobileBar {
+        display: none;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .dashboardHead .leftBlock{
+        flex: initial;
+    }
+    .dashboardHead .leftBlock{
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+    }
+    .dashboardHead .leftBlock h4{
+        margin: 0;
+    }
+    .dashboardMain .sideNav{
+        left: -100%;
+        transition: all ease-in-out .5s;
+        background-color: var(--white);
+        height: 100vh;
+        z-index: 999;
+        width: 260px;
+    }
+    .dashboardMain .sideNav.show{
+        left: 0;
+    }
+    .dashboardMain .sideNav>button{
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: -40px;
+        background: var(--primary-Main);
+        border-radius: 100%;
+        width: 34px;
+        height: 34px;
+        min-width: initial;
+        padding: 0;
+    }
+    .dashboardMain .sideNav>button img{
+        filter: brightness(0) invert(1);
+        width: 10px;
+    }
+    .dashboardMain .dashboardArea {
+        width: calc(100% - 0px);
+    }
+    .dashboardHead {
+        width: calc(100% - 0px);
+        padding: 15px 24px 15px 24px;
+    }
+    .dashboardHead .rightBlock li .MuiAvatar-root {
+        width: 45px;
+        height: 45px;
+        margin-right: 8px;
+    }
+    .dashboardHead .rightBlock ul {
+        width: 50px;
+    }
+    .dashboardHead .rightBlock ul li{
+        padding: 0;
+    }
+    .dashboardHead .rightBlock{
+        width: 132px;
+    }
+    .dashWeeklySales .bodyBlock {
+        padding: 1px 8px 10px;
+    }
+    .dashWeeklySales .topBlock {
+        padding: 1px 8px 10px;
+    }
+    /* rakesh */    
+    .coursePg_filtr {
+        flex-wrap: wrap;
+    }
+    .coursePg_filtr .pageFilterLeft {
+        width: 100%;
+        overflow: auto;
+    }
+    .coursePg_filtr .pageFilterRight {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 12px;
+    }
+    /* rakesh */
+    .dashboardHead .rightBlock ul{
+        order: 3;
+    }
+    .dashboardHead .rightBlock .MuiListItemText-root {
+        display: none;
+    }
+    .dashboardHead .rightBlock li .MuiAvatar-root{
+        margin-left: 8px;
+        margin-right: 0px;
+    }
+    .mobPage_title_block {
+        display: block;
+        padding-bottom: 30px;
+    }
+    .dashboardHead .leftBlock h4{
+        display: none;
+    }
+    .pageFilter{
+        row-gap: 16px;
+    }
+    .pageFilterLeft {
+        width: calc(100% - 0px);
+    }
+    .pageFilterRight{
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .profileRow{
+        flex-wrap: wrap;
+    }
+    .profileRow .profileLeft {
+        padding-right: 0px;
+        width: 100%;
+    }
+    .profileRow .profileRight {
+        width: 100%;
+        padding: 30px 0 0;
+    }
+    .profileNameWithPic {
+        margin-bottom: 30px;
+    }
+    .customPagination {
+        row-gap: 15px;
+    }
+
+    /* .responsiveTable table thead{
+        display: none;
+    }
+    .responsiveTable table tbody tr{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--Primary-border);
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .responsiveTable table tbody tr td{
+        border: none;
+        width: 100% !important;
+    }
+    .responsiveTable table tbody tr td::before{
+        content: attr(data-th);
+        display: block;
+        width: 100%;
+        color: var(--primary-Main);
+        font-weight: 500;
+        margin: 0 0 8px;
+        border-radius: 8px;
+    }
+    .tableContainer tbody td:first-child{
+        border: none;
+        box-shadow: none;
+    } */
+    .leftBlock .titleBlock {
+        display: none;
+    }
+    
+    
+    .customPagination  {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .customPagination .MuiTablePagination-root,
+    .customPagination .mainPagination {
+        justify-content: center !important;
+        display: flex !important;
+    }
+    
+}
+@media only screen and (max-width: 650px){
+    .dashboardHead .rightBlock li .MuiAvatar-root {
+        width: 40px;
+        height: 40px;
+    }
+    .dashboardHead .rightBlock ul {
+        width: 49px;
+    }
+    .dashboardHead .rightBlock ul li{
+        padding: 0;
+    }
+    .dashboardHead .rightBlock {
+        width: 130px;
+    }
+    .dashboardHead .rightBlock .MuiListItemText-root{
+        display: none;
+    }
+    .dashboardHead .leftBlock h4{
+        font-size: 18px;
+    }
+    .mainDashboardArea {
+        padding: 86px 24px 0 24px;
+    }
+
+    /* rakesh */
+    .coursePriceDtlBox > span {
+        font-size: 12px;
+    }
+    /* rakesh */
+    .pageFilterRightBox .mobileHide{
+        display: none;
+    }
+    .pageFilterRightBox .primaryBtnSmall svg{
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .customPagination .mainPagination .MuiPagination-root ul li button {
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+    }
+    
+    .customPagination .firstlastButton button {
+        padding: 6px 8px !important;
+        min-width: 42px !important;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .courseProfAction_area .grayOutlineBtn {
+        padding: 10px 9px 11px;
+    }
+}

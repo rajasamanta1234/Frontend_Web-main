@@ -1,0 +1,229 @@
+@media only screen and (max-width: 1599px) {
+    .recommendationSlider .imgBlock img {
+        aspect-ratio: 2 / 1.23;
+    }
+}
+@media only screen and (max-width: 1439px) {
+    .dashboardMain .sideNav {
+        width: 230px;
+        padding: 30px 0px 54px 15px;
+    }
+    .dashboardMain .dashboardArea {
+        width: calc(100% - 230px);
+    }
+    .dashboardHead.fullWidth {
+        width: calc(100% - 230px) !important;
+    }
+    .dashboardHead {
+        left: 230px;
+        width: calc(100% - 630px);
+    }
+    .dashboardMain .sideNav .navBar ul li a {
+        column-gap: 8px;
+        padding: 12px 12px;
+    }
+    .dashboardMain .sideNav .navBar ul li .MuiAccordionSummary-root {
+        padding: 12px 12px
+    }
+    .dashboardMain .sideNav .navBar ul li .MuiAccordionSummary-root .MuiAccordionSummary-content img {
+        margin-right: 8px;
+    }
+    .dashboardRightPanel {
+        width: 400px;
+    }
+    .mainDashboardArea {
+        padding: 143px 30px 0 30px;
+        width: calc(100% - 400px);
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .dashboardHead .leftBlock .subPageTitleWithShort{
+        display: none;
+    }
+    .dashboardHead .leftBlock .userNameBlock{
+        display: none;
+    }
+    .dashboardHead .leftBlock .navMobileBar{
+        display: block;
+        margin-left: 0px;
+    }
+    .dashboardHead .leftBlock .navMobileBar img:nth-child(2){
+        display: none;
+    }
+    .dashboardHead .leftBlock .navMobileBar.show img:nth-child(2){
+        display: block;
+    }
+    .dashboardMain .sideNav{
+        width: 256px;
+        left: -100%;
+        transition: all ease-in-out .5s;
+        z-index: 9999;
+        background: var(--white);
+    }
+    .dashboardMain .sideNav>button{
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: -40px;
+        background: var(--primary-Main);
+        border-radius: 100%;
+        width: 34px;
+        height: 34px;
+        min-width: initial;
+        padding: 0;
+    }
+    .dashboardMain .sideNav>button img{
+        filter: brightness(0) invert(1);
+        width: 10px;
+    }
+    .dashboardMain .sideNav.show{
+        left: 0;
+    }
+    .dashboardMain .dashboardArea {
+        width: calc(100% - 0px);
+    }
+    .dashboardHead {
+        left: 0;
+        width: calc(100% - 400px);
+    }
+    .dashboardHead.fullWidth {
+        width: calc(100% - 0px) !important;
+    }
+    .forMobileUsernameBlock{
+        padding: 0 0 30px;
+        display: flex !important;
+    }
+    .forMobileUsernameBlock p.subTextThree{
+        color: var(--Neutral-Dark-Grey);
+    }
+    .mainDashboardArea {
+        padding: 121px 30px 0 30px;
+    }
+}
+@media only screen and (max-width: 1124px) {
+    .searchAutocomplete.searchStudentCourse{
+        display: block;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .courseCompleteStatus {
+        padding: 0 0 30px;
+    }
+    .editProfileMenu h4{
+        font-size: 20px;
+    }
+    .studentPlanBox .forMobile{
+        display: inline-flex;
+    }
+    .studentPlanBox .forDesktop{
+        display: none;
+    }
+}
+@media only screen and (max-width: 850px){
+    .customPagePadding{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .mainDashboardArea {
+        padding: 105px 0px 0 0px;
+        width: calc(100% - 0px);
+    }
+    .dashboardLeftPanel{
+        padding: 30px 30px;
+    }
+    .dashboardRightPanel {
+        width: 100%;
+        position: relative;
+        min-height: initial;
+        left: 0;
+        right: initial;
+    }
+    .dashboardHead {
+        width: calc(100% - 0px);
+    }
+    .courseSortBtn button{
+        column-gap: 4px;
+        padding: 9px 8px;
+        min-width: 50px;
+        font-size: 12px;
+    }
+    .studentProfileBox .MuiListItemAvatar-root {
+        min-width: 90px;
+    }
+    .studentProfileBox .MuiAvatar-root {
+        width: 80px;
+        height: 80px;
+    }
+    .dashboardHead .rightBlock .forMobile{
+        display: block;
+    }
+    .dashboardHead .forDesktop{
+        display: none;
+    }
+    .dashboardHead .rightBlock {
+        width: 160px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .badgeBox {
+        padding: 16px 16px;
+    }
+    .editProfileMenu ul{
+        display: none;
+    }
+    .editProfileLeftPanel, .editProfileRightPanel{
+        width: 100% !important;
+    }
+    .editProfileMenu h4 {
+        font-size: 16px;
+        color: var(--Neutral-Dark-Grey);
+        font-weight: 400;
+    }
+    .editProfileRightPanel .mobileHide{
+        display: none;
+    }
+    .editProfileMobileMenu{
+        display: block;
+    }
+    .modalOne .MuiDialog-paper,
+    .reactiveModal .MuiDialog-paper,
+    .deActiveModal .MuiDialog-paper{
+        margin: 16px;
+        width: calc(100% - 40px);
+    }
+    .modalOne .MuiDialogTitle-root {
+        padding: 20px 16px;
+    }
+    .modalOne .MuiDialogTitle-root {
+        padding: 20px 16px;
+    }
+    .modalOne .MuiDialogContent-root {
+        padding: 0px 16px 38px;
+    }
+    .reactiveModal .MuiDialogContent-root,
+    .deActiveModal .MuiDialog-paper{
+        padding: 20px 16px;
+    }
+    .courseThumb .imgBlock {
+        aspect-ratio: 2 / 1.2;
+    }
+}
+@media only screen and (max-width: 480px){
+    .popularCocahBlock{
+        padding: 30px 15px;
+    }
+    .courseCompleteStatus .courseStatus {
+        padding: 0px 20px 0;
+    }
+    .deActiveModal .MuiDialogActions-spacing {
+        padding: 10px 24px 30px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .studentCalendar {
+        padding: 20px 15px;
+    }
+    .tradingCourseInner {
+        padding: 30px 15px;
+    }
+}

@@ -1,0 +1,1527 @@
+
+@media only screen and (min-width: 1650px) {}
+
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 2000px) {}
+
+@media only screen and (min-width: 2300px) {}
+
+@media only screen and (max-width: 2600px) {}
+
+@media only screen and (max-width: 2599px) {}
+
+@media only screen and (max-width: 2499px) {}
+
+@media only screen and (max-width: 2399px) {}
+
+@media only screen and (max-width: 2299px) {}
+
+@media only screen and (max-width: 1920px) {
+    .headerRow .mainNav .navLeft ul li .dropdownMenuOpen {
+        z-index: 999;
+    }
+
+
+}
+
+@media only screen and (max-width: 1800px) {}
+
+@media only screen and (max-width: 1799px) {}
+
+@media only screen and (max-width: 1700px) {}
+
+@media only screen and (max-width: 1699px) {}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1599px) {
+    .appBannersec .imgRight {
+        right: 0;
+    }
+    .appBannersec{
+        background-position: 143% -150%, 93% -150%;
+    }
+}
+
+@media only screen and (max-width: 1550px) {}
+
+@media only screen and (max-width: 1500px) {}
+
+@media only screen and (max-width: 1439px) {}
+
+@media only screen and (max-width: 1370px) {
+    
+    .container {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .headerRow .mainNav .navRight ul li a.primaryBtn {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .banner .contentBlock {
+        z-index: 9;
+    }
+
+    .banner .contentBlock .btnGroup {
+        column-gap: 24px;
+        margin-bottom: 100px;
+    }
+
+    .banner {
+        padding: 90px 0 70px;
+    }
+
+    .demand-course {
+        padding: 60px 0px;
+    }
+
+    .career-transformation .title h2 {
+        width: 40%;
+    }
+
+    .career-transformation .title p.subTextThree {
+        width: 45%;
+    }
+
+    .career-transform-down {
+        margin-top: 50px;
+    }
+
+    .learn-smarter .customRow .right {
+        width: calc(100% - 573px);
+        padding-left: 65px;
+    }
+
+    .demand-card {
+        padding: 10px 22px;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    .career-transformation {
+        padding-bottom: 60px;
+    }
+
+    .light-opportunity-row {
+        padding: 90px 50px;
+    }
+
+    .faqsec {
+        padding: 110px 0;
+    }
+
+    .testimonialSec {
+        padding: 0 0 130px;
+    }
+
+    .contactInfoBlock {
+        display: flex;
+        column-gap: 40px;
+        padding: 37px 0;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1350px) {
+    .headerTopRow .left .filterSearch {
+        width: 300px;
+    }
+    .headerTopRow .right ul {
+        column-gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1279px) {
+    .appBannersec .contentBlock h2 {
+        font-size: 30px;
+    }
+    .appBannersec .contentBlock h5{
+        font-size: 16px;
+        line-height: normal;
+        font-weight: 400;
+    }
+    .authRow .left {
+        width: 530px;
+    }
+    .authRow .right {
+        width: calc(100% - 530px);
+    }
+    .courseLeft {
+        padding-right: 55px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h2{
+        font-size: 30px;
+    }
+
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .headerTopRow .right ul {
+        column-gap: 20px;
+    }
+    .headerRow .logoBlock a {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .banner {
+        padding: 70px 0 50px;
+    }
+
+    .light-opportunity-row {
+        padding: 60px 48px;
+    }
+
+    .light-opportunity-row .right p {
+        margin-bottom: 20px;
+    }
+
+    .faqsec {
+        padding: 70px 0;
+    }
+
+    .testimonialSec {
+        padding: 0 0 90px;
+    }
+
+    .contactInfoBlock {
+        column-gap: 34px;
+        padding: 37px 0;
+    }
+
+    .footerRow .left {
+        width: 45%;
+        padding: 50px 0 55px;
+        padding-right: 50px;
+    }
+
+    .footerRow .right {
+        width: 55%;
+        position: relative;
+        background-color: var(--Neutral-900);
+        padding: 50px 0 50px 50px;
+    }
+
+    .footerNav {
+        padding: 40px 0;
+        margin: 60px 0 0;
+    }
+
+    .learn-smarter .customRow .left {
+        max-width: 450px;
+    }
+
+    .learn-smarter .customRow .right {
+        width: calc(100% - 452px);
+        padding-left: 65px;
+    }
+
+    .learn-smart-card {
+        gap: 12px;
+        margin: 16px 0px;
+    }
+
+    .learn-smarter-thymb {
+        padding-top: 40px;
+    }
+
+    .learning-experience {
+        padding: 60px 0px 0px;
+    }
+
+    .leftImgRightContent .customRow .right {
+        width: calc(100% - 507px);
+        padding-left: 60px;
+    }
+
+    .leftImgRightContent .customRow .left {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .leftContentRightImg {
+        padding: 60px 0;
+    }
+
+    .leftContentRightImg .customRow .right {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .leftContentRightImg .customRow .left {
+        width: calc(100% - 503px);
+        padding-right: 60px;
+    }
+
+    .light-opportunity-row .right {
+        width: calc(100% - 504px);
+        margin-left: 41px;
+    }
+
+    .faqRow .left {
+        width: 45%;
+        padding: 0 8px;
+    }
+
+    .faqRow .right {
+        width: 55%;
+        padding: 0 8px;
+    }
+    .courseLeft {
+        padding-right: 24px;
+    }
+    .couseCat_nameBox {
+        padding-left: 24px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .faqsec {
+        padding: 50px 0;
+    }
+    .faqInfoCol {
+        column-gap: 8px;
+    }
+    .appBannersec {
+        padding: 37px 0 10px;
+    }
+    .appBannersec .contentBlock {
+        padding-right: 0;
+        padding-bottom: 78px;
+    }
+    .appBannersec .imgRight {
+        position: relative;
+        margin: 0 auto;
+        display: block;
+    }
+    .ratingBlock .ratingContent .startBlock {
+        margin: 0 0 10px;
+        column-gap: 0px;
+    }
+    .ratingBlock {
+        padding: 32px 0 0;
+        column-gap: 20px;
+    }
+    .ratingBlock .ratingContent p{
+        font-size: 12px;
+        margin: 0 0 9px;
+    }
+    .ratingBlock .ratingContent .startBlock svg {
+        font-size: 17px;
+    }
+    .appBannersec {
+        background-position: 122% 40%, left 137%;
+        background-size: 390px 300px, 350px 330px;
+    }
+    .testimonialSliderInner .sliderContent {
+        margin: 0 10px;
+    }
+    .demand-card h4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .headerTopRow .left {
+        column-gap: 20px;
+    }
+    .headerTopRow .left .filterSearch {
+        width: 250px;
+    }
+    .contactInfoBlock {
+        column-gap: 18px;
+        padding: 30px 0;
+    }
+
+    .footerRow .right {
+        width: 55%;
+        padding: 35px 0 35px 50px;
+    }
+
+    .contactInfoCol {
+        column-gap: 8px;
+    }
+
+    .contactInfoCol .imgBlock {
+        width: 33px;
+        height: 33px;
+    }
+
+    .footerNav p {
+        margin: 0 0 20px;
+    }
+
+    .footerNav ul li {
+        margin-bottom: 9px;
+    }
+
+    .footerNav {
+        padding: 30px 0;
+        margin: 45px 0 0;
+    }
+
+    .learn-smarter .customRow .left {
+        max-width: 400px;
+    }
+
+    .learn-smarter .customRow .right {
+        width: calc(100% - 402px);
+        padding-left: 40px;
+    }
+    .searchAutocomplete .MuiOutlinedInput-root {
+        padding: 12px 42px 12px 15px !important;
+    }
+    .courseMblSearchFilter{
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 15px;
+    }
+    .courseMblSearchFilter button{
+        min-width: initial;
+        padding: 0;
+        background-color: transparent;
+    }
+    .categoriSearch{
+        display: none;
+    }
+    .categoriSearch.show{
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 30px;
+        width: 320px;
+        background: #fff;
+        padding: 8px 0 0 8px;
+        z-index: 9;   
+    }
+    .courseLeft {
+        padding-right: 0px;
+        width: 100%;
+    }
+    .courseLeft.hide{
+        display: none;
+    }
+    .courseFilter {
+        width: 100%;
+        display: none;
+    }
+    .courseFilter.show{
+        display: block;
+    }
+    .courseFilter .forMobileFiter{
+        display: block;
+    }
+    .courseFilter .forMobileFiter button{
+        padding: 0;
+        min-width: initial;
+        display: flex;
+        align-items: center;
+        column-gap: 7px;
+    }
+    .courseFilter .forMobileFiterAction{
+        display: flex;
+        justify-content: center;
+        padding: 90px 0 0;
+        column-gap: 14px;
+    }
+    .courseFilter .forMobileFiterAction button{
+        flex: 1;
+    }
+    .courseDetailLeft {
+        width: calc(100% - 300px);
+        padding-right: 24px;
+    }
+    .courseDetailRight {
+        width: 300px;
+    }
+    .categoriSearchMobile{
+        display: block;
+        padding: 0 8px;
+        width: 320px;
+    }
+    .categoriSearchMobile img {
+        right: 10px;
+    }
+}
+@media only screen and (min-width: 1125px) {
+    .navMobileBar {
+        display: none;
+    }
+    .headerTopRow .right .forMobileSearch{
+        display: none;
+    }
+    .headerRow .mainNav .forMobile{
+        display: none;
+    }
+    .headerRow .mainNav .navLeft ul li.dropdownMenu:hover > button{
+        transform: rotate(-180deg);
+        top: 6px;
+    }
+}
+@media only screen and (max-width: 1124px) {
+    .searchAutocomplete{
+        display: none;
+    }
+    .headerTopRow .right{
+        align-items: center;
+        column-gap: 16px;
+    }
+    .headerTopRow .right ul{
+        display: none;
+    }
+    .headerTopRow .right .forMobileSearch{
+        display: block;
+        position: relative;
+    }
+    .headerTopRow .right .forMobileSearch button{
+        border: none;
+        padding: 0;
+    }
+    .headerTopRow .right .forMobileSearch>button{
+        background-color: transparent;
+    }
+    .headerTopRow .right .forMobileSearch .filterSearchBlock{
+        display: none;
+    }
+    .headerTopRow .right .forMobileSearch .searchAutocomplete{
+        width: 100%;
+        max-width: initial;
+        position: relative;
+        display: block;
+    }
+
+    .headerTopRow .right .forMobileSearch .filterSearchBlock.show{
+        display: block;
+        position: fixed;
+        width: 320px;
+        right: 0;
+        top: 0px;
+        background-color: var(--white);
+        height: 100vh;
+        padding: 24px;
+    }
+    
+    .navMobileBar.closebutton img:nth-child(2){
+        display: none;
+    }
+    .navMobileBar.show img:nth-child(2){
+        display: block;
+    }
+    .navMobileBar.show img:nth-child(1){
+        display: none;
+    }
+    .headerRow .mainNav .forMobile{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .headerRow .mainNav .forMobile>li a{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .headerRow .mainNav .forMobile>li .primaryOutlineBtn{
+        padding: 6px 15px 8px;
+    }
+    .headerRow .mainNav .forMobile>li .primaryBtn{
+        padding: 6px 15px 8px;
+    }
+    .headerRow .mainNav .navLeft ul li.dropdownMenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .headerRow .mainNav .navLeft ul li.dropdownMenu button.dropdownMenuBtn {
+        top: 2px;
+        transform: rotate(-90deg);
+        margin-left: 0;
+    }
+    .footerNav .MuiGrid-item {
+        max-width: 50%;
+        margin: 15px 0px;
+    }
+    .headerTop {
+        padding: 25px 0;
+    }
+    .headerBottom {
+        padding: 0;
+        width: 80%;
+        max-width: 500px;
+        position: fixed;
+        flex-wrap: wrap;
+        background: var(--neutral-100);
+        top: 0;
+        bottom: 0;
+        z-index: 2;
+        padding: 24px 24px 24px 24px;
+        right: -100%;
+        -webkit-transition: .2s ease-out;
+        -moz-transition: .2s ease-out;
+        transition: .2s ease-out;
+        display: block;
+        z-index: 999;
+        top: 80px;
+    }
+
+    .headerBottom.show {
+        right: 0%;
+    }
+    .headerBottom .container{
+        padding: 0;
+    }
+    .headerBottom .headerRow .mainNav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .headerBottom .headerRow .mainNav .forMobile{
+        list-style: none;
+    }
+    .headerRow .mainNav .navLeft ul {
+        column-gap: 13px;
+        flex-wrap: wrap;
+    }
+
+    .headerRow .mainNav .navLeft ul li {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .headerRow .mainNav .navLeft ul li .dropdownMenuOpen {
+        display: block;
+        position: fixed;
+        top: 48px;
+        height: 100vh;
+        width: 80%;
+        max-width: 500px;
+        left: initial;
+        right: -100%;        
+        transition: all ease-in-out 0.5s;
+    }
+
+    .headerRow .mainNav .navLeft ul li.dropdownMenu:hover .dropdownMenuOpen {
+        display: block;
+    }
+    .headerRow .mainNav .navLeft ul li .dropdownMenuOpen.show{
+        right: 0;
+    }
+    .headerRow .mainNav .navLeft ul li .dropdownMenuOpen .dropdownMenuOpenInner {
+        padding: 15px;
+        border-radius: 0px;
+        height: 100%;
+        background-color: var(--neutral-400);
+    }
+    .headerRow .mainNav .navLeft ul li {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        margin: 8px 0px;
+    }
+    .headerRow .mainNav .navLeft ul li .dropdownMenuOpenInner ul li {
+        width: calc(100% - 0px);
+        margin: 12px 0;
+    }    
+    .headerRow .mainNav .navLeft ul li .dropdownMenuOpen .dropdownMenuOpenInner>button{
+        display: flex;
+    }
+    .headerRow .mainNav .navLeft ul li a {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-weight: 500;
+    }
+    .headerRow .mainNav .navLeft ul li.dropdownMenu:hover > a {
+        color: var(--neutral-800);
+    }
+    .headerRow .mainNav .navLeft ul li .dropdownMenuOpenInner ul li a {
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .headerRow .mainNav .navLeft {
+        border-top: 1px solid var(--Primary-border);
+        max-height: calc(100vh - 150px);
+        overflow-y: auto;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        margin-top: 24px;
+    }
+
+    .headerRow .mainNav .navLeft ul li .dropdownMenuOpenInner ul {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 16px;
+        row-gap: 4px;
+    }
+
+    .mainNav.mobile-mode .navLeft.shownav {
+        left: 0%;
+    }
+    
+}
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .learn-smarter .customRow .right {
+        width: calc(100% - 302px);
+        padding-left: 35px;
+    }
+
+    .learn-smarter .customRow .left {
+        max-width: 300px;
+    }
+
+    .demand-course {
+        padding: 40px 0px;
+    }
+
+    .demand-card {
+        width: 32%;
+        padding: 15px 20px;
+        gap: 12px;
+    }
+
+    .demand-card-list {
+        justify-content: center;
+        gap: 0px 13px;
+    }
+
+    .banner .contentBlock .btnGroup {
+        column-gap: 15px;
+        margin-bottom: 60px;
+    }
+
+    .banner {
+        padding: 60px 0 50px;
+    }
+
+    .learn-smarter-thymb {
+        padding-top: 30px;
+    }
+
+    .career-transformation .title p.subTextThree {
+        width: 55%;
+    }
+
+    .learning-experience .title .title-main p {
+        width: 48%;
+    }
+
+    .learning-experience .title .title-main {
+        margin-bottom: 18px;
+    }
+
+    .learning-experience-down {
+        margin-top: 35px;
+    }
+
+    .leftImgRightContent .customRow .left {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .leftImgRightContent .customRow .right {
+        width: calc(100% - 410px);
+        padding-left: 35px;
+    }
+
+    .leftImgRightContent .customRow .left .imgBlock {
+        max-height: 310px;
+        overflow: hidden;
+    }
+
+    .leftContentRightImg .customRow .right {
+        max-width: 350px;
+    }
+
+    .leftContentRightImg .customRow .left {
+        width: calc(100% - 363px);
+        padding-right: 40px;
+    }
+
+    .light-opportunity-row {
+        padding: 43px 30px;
+    }
+
+    .lead-charge-card.lead-charge-full .lead-charge-cntn {
+        width: calc(100% - 390px);
+        margin-left: 10px;
+    }
+
+    .testimonialSec .title {
+        padding: 0 0 40px;
+    }
+
+    .testimonialSec {
+        padding: 0 0 60px;
+    }
+
+    .career-traform-card {
+        width: 49%;
+        margin: 20px 0px;
+    }
+
+    .footerNav ul li {
+        margin-bottom: 5px;
+    }
+
+    .footerNav {
+        padding: 12px 0;
+        margin: 20px 0 0;
+    }
+
+    .footerLogo img {
+        max-width: 140px;
+    }
+
+    .footersocialBlock ul li a img {
+        width: 80%;
+    }
+
+    .footerNav p {
+        margin: 0 0 13px;
+    }
+
+    .css-1cckt4o-MuiGrid-root {
+        padding-top: 15px;
+    }
+
+    .footerRow .right {
+        padding: 40px 0 40px 50px;
+    }
+
+    .footerRow .left {
+        width: 45%;
+        padding: 40px 0 40px;
+        padding-right: 50px;
+    }
+
+    .contactInfoBlock {
+        column-gap: 18px;
+        padding: 30px 0;
+        flex-direction: column;
+        row-gap: 19px;
+    }
+
+    .lead-charge-card.lead-charge-half {
+        width: 48%;
+    }
+
+    .light-opportunity-row .right {
+        width: calc(100% - 375px);
+        margin-left: 40px;
+    }
+
+    .faqInfoBlock {
+        column-gap: 25px;
+        padding: 30px 0 30px;
+    }
+
+    .leftImgRightContent .customRow .left .imgBlock img {
+        max-height: 400px;
+        width: 100%;
+    }
+
+    .leftContentRightImg .customRow .right img {
+        width: 100%;
+    }
+
+    .faqInfoBlock {
+        column-gap: 22px;
+        padding: 22px 0 22px;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .authRow .left {
+        width: 430px;
+    }
+    .authRow .right {
+        width: calc(100% - 430px);
+    }
+
+}
+
+@media only screen and (max-width: 975px) {
+    .superAdminRow .left {
+        width: 350px;
+        padding: 24px 24px 24px 24px;
+    }
+
+    .superAdminRow .left .contentBlock {
+        min-height: 650px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .superAdminRow .left {
+        width: 294px;
+        padding: 24px 24px 24px 24px;
+    }
+
+    .leftImgRightContent .customRow .left {
+        max-width: 350px;
+    }
+
+    .leftImgRightContent .customRow .right {
+        width: calc(100% - 350px);
+        padding-left: 15px;
+    }
+
+    .leftImgRightContent .customRow .right .contentBlock .title {
+        padding: 0 0 15px;
+    }
+
+    .leftContentRightImg {
+        padding: 40px 0;
+    }
+
+    .leftImgRightContent {
+        padding: 40px 0;
+    }
+
+    .leftContentRightImg .customRow .left .contentBlock .title {
+        padding: 0px 0 15px;
+    }
+
+    .leftContentRightImg .customRow .left {
+        width: calc(100% - 350px);
+        padding-right: 15px;
+    }
+
+    .featuresSec {
+        padding: 56px 0;
+    }
+
+    .featureCol {
+        width: 50%;
+    }
+    .learn-smarter .customRow .left{
+        max-width: 100%;
+    }
+    .learn-smarter .customRow .right {
+        width: calc(100% - 0px);
+        padding-left: 0;
+        padding-top: 56px;
+    }
+    .demand-card {
+        width: calc(50% - 12px);
+    }
+    .missionColInner,
+    .visionColInner {
+        padding: 36px 19px 30px;
+    }
+    .missionVisionRow {
+        margin: 0 -10px;
+    }
+    .missionCol, .visionCol {
+        padding: 20px 10px;
+    }
+    .studentExpartCol {
+        padding: 20px 10px;
+    }
+    .studentExpartColInner {
+        padding: 30px 19px 30px 19px;
+    }
+    .studentExpartColInner .contentBlock {
+        padding-left: 30px;
+    }
+    .triumph-learning-feature {
+        padding: 16px;
+        margin-top: 25px;
+    }
+    .subpageBanner {
+        padding: 40px 0 30px;
+        min-height: 149px;
+    }
+    .subpageBanner h1 {
+        font-size: 30px;
+        line-height: 45px;
+        margin: 0 0 10px;
+    }
+    .subpageBanner h4{
+        font-size: 16px;
+    }
+    .blogListing {
+        padding: 38px 0 70px;
+    }
+    .blogRow {
+        margin: 0 -24px;
+    }
+    .blogCol {
+        padding: 20px 24px;
+    }
+    .blogColInner .imgBlock {
+        margin-bottom: 14px;
+    }
+    .blogColInner .contentBlock p.subTextThree {
+        margin: 0 0 9px;
+    }
+    .priceList .MuiBox-root .topblock h2 {
+        font-size: 38px;
+    }
+    .authRow .left {
+        width: 400px;
+    }
+    .authRow .right {
+        width: calc(100% - 400px);
+    }
+    .becomeBlock {
+        padding: 39px 24px 39px 80px;
+        max-width: 344px;
+    }
+    .authRow .right form .formInfo{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        row-gap: 8px;
+    }
+    .authRow .right form .formInfo p{
+        margin: 0;
+    }
+    .becomeBlock h4{
+        font-size: 16px;
+    }
+    .appBannersec {
+        background-position: 143% 70%, left 143%;
+    }
+    .courseDetailLeft {
+        width: calc(100% - 0px);
+        padding-right: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .courseDetailRight {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .courseDtilMain {
+        padding: 30px 0 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 119%;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .banner {
+        padding: 45px 0 50px;
+    }
+    .banner .contentBlock h4{
+        font-size: 15px;
+    }
+    .subpageBanner::before {
+        background-size: 100% 350px;
+        top: 0px;
+        background-repeat: no-repeat;
+    }
+    .superAdminRow {
+        padding: 44px 0;
+    }
+    .superAdminRow .left {
+        display: none;
+    }
+
+    .superAdminRow .right {
+        width: 100%;
+    }
+
+    .superAdminmobileContent {
+        display: block;
+    }
+
+    .superAdminMobileFooter {
+        display: block;
+    }
+
+    .banner .contentBlock h5 {
+        margin: 0 auto 19px;
+        color: var(--Gray-900);
+        line-height: 24.016px;
+        font-size: 14px;
+    }
+    .banner .contentBlock .btnGroup {
+        column-gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .learn-smarter .customRow .left {
+        max-width: 100%;
+    }
+
+    .learn-smarter .customRow .right {
+        width: calc(100% - 0px);
+        padding-left: 0px;
+    }
+
+    .learn-smarter-thymb img {
+        width: 100%;
+    }
+
+    .demand-card {
+        width: 48%;
+        padding: 13px 18px;
+        gap: 12px;
+    }
+
+    .career-transform-down {
+        margin-top: 30px;
+    }
+    .lead-charge-card {
+        padding: 34px 24px;
+    }
+
+    .lead-charge-card.lead-charge-full .lead-charge-cntn {
+        width: calc(100% - 316px);
+        margin-left: 30px;
+    }
+
+    .banner .contentBlock h1 {
+        margin: 0 auto 15px;
+        max-width: 500px;
+    }
+
+    .banner .contentBlock h4 {
+        max-width: 500px;
+    }
+
+    .leftContentRightImg .customRow {
+        flex-direction: column-reverse;
+    }
+
+    .leftContentRightImg .customRow .right {
+        max-width: 100%;
+    }
+
+    .leftContentRightImg .customRow .left {
+        width: calc(100% - 0px);
+        padding-right: 0px;
+        padding-top: 28px;
+    }
+
+    .leftImgRightContent .customRow .right {
+        width: calc(100% - 0px);
+        padding-left: 0px;
+        padding-top: 28px;
+    }
+
+    .leftImgRightContent .customRow .left {
+        max-width: 100%;
+    }
+
+    .lead-charge-card.lead-charge-half {
+        width: 100%;
+    }
+
+    .lead-charge-card.lead-charge-full {
+        flex-direction: column;
+    }
+
+    .lead-charge-card.lead-charge-full .lead-charge-cntn {
+        width: calc(100% - 0px);
+        margin-left: 0px;
+    }
+
+    .lead-charge-card.lead-charge-full .lead-charge-thumb {
+        flex: 1;
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .faqRow .left {
+        width: 100%;
+        padding: 0 0px;
+    }
+
+    .faqRow .right {
+        width: 100%;
+        padding: 0 0px;
+        margin-top: 30px;
+    }
+
+    .faqInfoBlock {
+        column-gap: 22px;
+        padding: 22px 0 22px;
+        flex-direction: row;
+        row-gap: 15px;
+    }
+
+    .footerRow .left {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+
+    .footerRow .right {
+        padding: 40px 0px;
+        width: 100%;
+    }
+
+    footer::before {
+        display: none;
+    }
+
+    .footerRow .left::before {
+        content: '';
+        background-color: var(--primary-Main);
+        left: -24px;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        height: 100%;
+        width: 768px;
+        z-index: -1;
+        right: 0px;
+    }
+
+    .footerRow .left {
+        position: relative;
+        z-index: 1;
+    }
+
+    .contactInfoBlock {
+        column-gap: 18px;
+        padding: 30px 0;
+        flex-direction: row;
+        row-gap: 19px;
+    }
+
+    .light-opportunity-row .right {
+        width: calc(100% - 0px);
+        margin-left: 0px;
+    }
+
+    .light-opportunity-row {
+        padding: 40px 30px;
+        flex-direction: column;
+    }
+
+    .light-opportunity-row .right p {
+        margin-bottom: 70px;
+        margin-top: 20px;
+    }
+
+    .testimonialSliderInner .sliderContent {
+        margin: 0 10px;
+    }
+    .faqAccordionBlock {
+        padding: 15px 15px;
+    }
+    .faqAccordionBlock .MuiButtonBase-root .MuiAccordionSummary-content {
+        width: calc(100% - 60px);
+        padding-right: 24px;
+    }
+    .faqAccordionBlock .MuiButtonBase-root p{
+        font-size: 14px;
+    }
+    .faqAccordionBlock .MuiAccordionSummary-expandIconWrapper {
+        width: 15px;
+        height: 15px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .faqAccordionBlock .MuiButtonBase-root {
+        padding: 9px 9px;
+        min-height: 32px !important;
+    }
+    .faqAccordionBlock .MuiAccordionDetails-root {
+        padding: 9px 9px;
+    }
+    .faqAccordionBlock .MuiAccordionDetails-root p.mainText{
+        font-size: 14px;
+    }
+    .testimonialSec .title .container .sliderButton button{
+        min-width: initial;
+        padding: 6px 8px;
+    }
+    .leftImgRightContent .customRow .left .imgBlock img{
+        width: 100%;
+    }
+    .demand-card h4 {
+        font-size: 14px;
+    }
+    .leftImgRightContent .customRow .left .imgBlock{
+        max-height: initial;
+    }
+    .learning-experience {
+        padding: 30px 0px 0px;
+    }
+    .missionCol, .visionCol{
+        width: 100%;
+    }
+    .studentExpartColInner .imgBlock {
+        width: 100%;
+    }
+    .studentExpartColInner .contentBlock {
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 24px;
+    }
+    .faqInfoCol .contentBlock p.smallText{
+        margin: 0 0 5px;
+    }
+    .footerContactBlock {
+        padding: 19px 21px 39px 18px;
+    }
+    .privacyContent .contentBlock h2{
+        font-size: 24px;
+    }
+    .privacyContent .contentBlock p,
+    .privacyContent .contentBlock ol li{
+        font-size: 14px;
+    }
+    .privacyContent {
+        padding: 39px 0 70px;
+    }
+    .priceSec {
+        padding: 38px 0;
+    }
+    .priceTopdec {
+        padding: 0 0 55px;
+    }
+    .priceList .MuiBox-root {
+        padding: 24px
+    }
+    .authRow .left .imgBlock{
+        display: none;
+    }
+    .authRow .right form .formContent .imgBlock {
+        display: block;
+    }
+    .authRow .left {
+        width: 100%;
+    }
+    .authRow .right {
+        width: calc(100% - 0px);
+    }
+    .authRow{
+        flex-direction: column-reverse;
+    }
+    .authRow .right form {
+        width: 100%;
+    }
+    .becomeBlock {
+        padding: 39px 24px 39px 100px;
+        max-width: 100%;
+        margin: 40px 0 0;
+    }
+    .becomeBlock img {
+        left: -22px;
+        width: 125px;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    .authRow .right form .formInfo{
+        flex-direction: row;
+    }
+    .appBannersec {
+        background-position: 213% 70%, left 152%;
+        background-size: 450px 350px, 350px 330px;
+    }
+    .privacyContent .contentBlock h4 {
+        font-size: 18px;
+    }
+    .categoriMain {
+        padding: 50px 0 100px;
+    }
+    .couseCatImg {
+        width: 300px;
+    }
+    .couseCat_nameBox {
+        width: calc(100% - 300px) !important;
+        padding-left: 15px;
+    }
+    .detailsTab .MuiTab-root{
+        font-size: 14px !important;
+    } 
+}
+
+@media only screen and (max-width: 650px) {
+    .otpFld {
+        column-gap: 15px;
+    }
+
+    .featureCol {
+        width: 100%;
+    }
+
+    .career-traform-card {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .career-transformation .title h2 {
+        width: 100%;
+    }
+
+    .career-transformation .title p.subTextThree {
+        width: 100%;
+    }
+
+    .learning-experience .title .title-main h2 {
+        width: 100%;
+    }
+
+    .learning-experience .title .title-main p {
+        width: 100%;
+    }
+    .blogCol {
+        width: 100%;
+    }
+    .appBannersec {
+        background-position: 293% 60%, left 158%;
+    }
+    .testimonialSliderInner .MuiAvatar-root {
+        width: 45px;
+        height: 45px;
+    }
+    .testimonialSliderInner .MuiListItemText-root .MuiTypography-body1 {
+        font-size: 12px;
+    }
+    .testimonialSliderInner .MuiListItemText-root .MuiTypography-body2 {
+        font-size: 12px;
+    }
+    .footerRow .left h3{
+        font-weight: 700;
+    }
+    .instructorBanner::before{
+        height: 400px;
+        top: -10px;
+    }
+    .aboutBanner::before {
+        height: 443px;
+    }
+    .couseCatImg {
+        width: 100%;
+    }
+    .couseCat_nameBox {
+        width: calc(100% - 0px) !important;
+        padding-left: 0px;
+    }
+    .courseTabList .MuiTab-root{
+        font-size: 14px !important;
+    }
+    .courseCategoriBox {
+        padding: 10px 10px 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .detailsBox_riv_cont{
+        margin-bottom: 8px !important;
+    }
+    .detailsBox_riv_cont button{
+        padding: 0;
+    }
+    .detailsBox_riv_cont:not(:first-child):before{
+        display: none;
+    }
+    .videoBox .playBtn {
+        width: 65px;
+        height: 65px;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .footerNav .MuiGrid-item {
+        max-width: 100%;
+        margin: 15px 0px;
+    }
+    .footersocialBlock{
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .appBannersec {
+        background-position: 433% 60%, left 165%;
+    }
+    .uploadView p.subTextOne span {
+        margin-left: 8px;
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .appBannersec {
+        background-position: 240px 60%, left 500px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .contactInfoCol .contentBlock p.subTextOne{
+        font-size: 12px;
+    }
+    .authRow .right form .formInfo {
+        flex-direction: column-reverse;
+    }
+    .authRow .right form .formInfo p{
+        text-align: center;
+    }
+    .becomeBlock {
+        padding: 24px 24px 24px 100px
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .appBannersec {
+        background-position: 220px 60%, -60px 500px;
+        background-size: 370px 280px, 340px 330px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .appBannersec {
+        background-position: 210px 254px, -60px 500px;
+        background-size: 310px 260px, 340px 330px;
+    }
+}
+
+@media only screen and (max-width: 360px) {}
+
+@media only screen and (max-width: 320px) {}
+
+/* Height */
+
+@media only screen and (max-height: 414px) {
+    .superAdminRow .left .contentBlock {
+        min-height: 310px;
+    }
+    .superAdminRow .left .contentBlock .imgBlock {
+        margin: 0 auto 8px;
+        max-width: 120px;
+    }
+}

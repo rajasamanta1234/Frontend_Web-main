@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gordita';
+    src: url('Gordita-BoldItalic.eot');
+    src: url('Gordita-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Gordita-BoldItalic.woff2') format('woff2'),
+        url('Gordita-BoldItalic.woff') format('woff'),
+        url('Gordita-BoldItalic.ttf') format('truetype'),
+        url('Gordita-BoldItalic.svg#Gordita-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
